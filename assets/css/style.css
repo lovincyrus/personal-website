@@ -15,12 +15,13 @@ body {
     display: flex;
     justify-content: center;
     align-items: center;
-    padding-top: 8%;
+    padding-top: 25vh;
 }
 
 img {
     border: 0;
     width: 150px;
+    z-index: -99999999;
     border-radius: 100px;
     box-shadow: 10px 10px 5px rgba(0,0,0,.08); 
     image-rendering: optimizeQuality;
@@ -45,7 +46,7 @@ ul.menu {
 }
 
 a {
-    font-family: 'Lato';
+    font-family: Avenir, 'Lato';
     text-decoration: none;
     font-size: 17px;
     padding: 5px 25px;
@@ -68,4 +69,13 @@ a {
 a:hover {
     color:#F7F7F7;
     animation: fadein 1s both;
+}
+
+.typed-cursor{
+    display: none;
+}
+
+.sayHello {
+    color: #f7f7f7;
+    opacity: 0.75;
 }
