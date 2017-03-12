@@ -21,3 +21,5 @@ function myFunction() {
 	$("ul.menu").delay(13000).show(1000);
 	$(".sayHello").delay(16000).fadeOut();
 }
+
+console.image("https://i.imgur.com/hKGenSr.jpg");
