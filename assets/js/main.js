@@ -10,7 +10,7 @@ document.addEventListener("DOMContentLoaded", myFunction);
 
 function myFunction() {
 	Typed.new(".sayHello", {
-	strings: ["Hello. ^100", "I'm glad that you're here. ^100", "No, no, no! ^10", "I'm really happy, pleased, contented, delighted, thrilled, overjoyed, elated, gleeful, thankful that you're here. ^100"]
+	strings: ["Hello. ^100", "I'm glad that you're here. ^100", "No, no, no! ^10", "I'm really happy, pleased, contented, delighted, thrilled, overjoyed, elated, gleeful and thankful that you're here. ^100"]
 	// loop: true
 	// typeSpeed: 30
 	});
