@@ -1,11 +1,3 @@
-/**
-
-1. document ready
-2. typed.js > fadeOut
-3. img and navbar > fadeIn
-
-**/
-
 document.addEventListener("DOMContentLoaded", myFunction);
 
 function myFunction() {
@@ -17,9 +9,9 @@ function myFunction() {
 
 	$("img").hide();
 	$("ul.menu").hide();
-	$(".sayHello").delay(14000).fadeOut();
-	$("img").delay(12000).show(1000);
-	$("ul.menu").delay(12000).show(1000);
+	$(".sayHello").delay(12000).fadeOut();
+	$("img").delay(12500).show(1000);
+	$("ul.menu").delay(12500).show(1000);
 }
 
 console.image("https://i.imgur.com/hKGenSr.jpg");
