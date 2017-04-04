@@ -107,6 +107,19 @@ p.bio {
     text-align: justify;
 }
 
+span {
+    color: #6C57A2;
+}
+
+p {
+    font-family: Avenir;
+    color: #ccc;
+    font-size: 18px;
+    line-height: 1.5;
+    margin-bottom: 30px;
+    text-align: justify;
+}
+
 .overlay-bg {
     float: right;
     z-index: 999999;
