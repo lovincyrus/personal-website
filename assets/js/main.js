@@ -1,3 +1,4 @@
+// sayHello
 document.addEventListener("DOMContentLoaded", myFunction);
 
 function myFunction() {
@@ -14,4 +15,12 @@ function myFunction() {
 	$("ul.menu").delay(12500).show(1000);
 }
 
+// click to skip sayHello
+$(window).click(function() {
+	$(".sayHello").hide();
+	$("img").show();
+	$("ul.menu").show();
+});
+
+// meme
 console.image("https://i.imgur.com/hKGenSr.jpg");
