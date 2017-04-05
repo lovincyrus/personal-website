@@ -15,8 +15,12 @@ function myFunction() {
 	$("ul.menu").delay(12500).show(1000);
 }
 
-// click to skip sayHello
+// triggered click or keyboard to skip sayHello
 $(window).click(function() {
+	$(".sayHello").hide();
+	$("img").show();
+	$("ul.menu").show();
+}).keydown(function() {
 	$(".sayHello").hide();
 	$("img").show();
 	$("ul.menu").show();
