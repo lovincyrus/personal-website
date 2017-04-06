@@ -159,6 +159,8 @@ img.pro-img {
     position: relative;
     z-index: -1;
     border-radius: 0.85%;
+    animation: fadein .5s both;
+    animation-delay: .2s;
 }
 
 h1.pro-name {
@@ -168,4 +170,6 @@ h1.pro-name {
     z-index: 1;
     bottom: 170px;
     left: 440px;
+    animation: fadein .5s both;
+    animation-delay: .3s;
 }
