@@ -151,8 +151,8 @@ img.moma {
 }
 
 .container {
-    margin: 50px auto -150px;
-    max-width: 900px;
+    margin: 50px 0 -150px;
+    max-width: 600px;
 }
 
 img.pro-img {
