@@ -130,16 +130,16 @@ p {
 .overlay-bg {
     float: right;
     z-index: 999999;
-    position: absolute;
-    opacity: 0.55;
+    position: fixed;
+    /*opacity: 0.55;*/
     top: -1px;
-    right: 170px;
+    right: 440px;
 }
 
 img.moma {
     width: 320px;
     z-index: -69;
-    position: relative;
+    position: fixed;
     border-radius: 0.5%;
     box-shadow: 10px 10px 5px rgba(0,0,0,.08);
     image-rendering: optimizeQuality;
