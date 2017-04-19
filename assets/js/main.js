@@ -35,7 +35,7 @@ if(sessionStorage){
 		});
 	} else {
 		$(".sayHello").hide();
-	    alert("Walao, your browser do not support session storage.");
+	    // alert("Walao, your browser do not support session storage.");
 	}
 }
 
