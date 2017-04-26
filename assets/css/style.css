@@ -133,7 +133,9 @@ p {
     position: fixed;
     /*opacity: 0.55;*/
     top: -1px;
-    right: 440px;
+    /*right: 440px;*/
+    right: 280px;
+    width: 200px;
 }
 
 img.moma {
@@ -143,6 +145,8 @@ img.moma {
     border-radius: 0.5%;
     box-shadow: 10px 10px 5px rgba(0,0,0,.08);
     image-rendering: optimizeQuality;
+    animation: fadein .5s both;
+    animation-delay: .2s;
 }
 
 /* project */
