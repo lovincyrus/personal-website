@@ -116,6 +116,25 @@ span {
     color: #6C57A2;
 }
 
+button {
+    cursor: pointer;
+    display: block;
+    color: #6C57A2;
+    border: 1px solid currentColor;
+    background: transparent;
+    font-size: 1rem;
+    font-family: Avenir;
+    outline: none;
+    padding: 8px 16px;
+    border-radius: 3px;
+    -webkit-transition: color .3s ease;
+    transition: color .3s ease;
+}
+
+button:hover {
+    color: white;
+}
+
 p {
     font-family: Avenir;
     color: #ccc;
