@@ -9,17 +9,17 @@ function sayHello() {
 	$("img").hide();
 	$("ul.menu").hide();
 	$(".sayHello").delay(12000).fadeOut();
-	$("img").delay(12500).show(1000);
-	$("ul.menu").delay(12500).show(1000);
+	$("img").delay(12500).fadeIn(1000);
+	$("ul.menu").delay(12500).fadeIn(1000);
 
 	$(document).click(function() {
 		$(".sayHello").hide();
-		$("img").show();
-		$("ul.menu").show();
+		$("img").fadeIn();
+		$("ul.menu").fadeIn();
 	}).keydown(function() {
 		$(".sayHello").hide();
-		$("img").show();
-		$("ul.menu").show();
+		$("img").fadeIn();
+		$("ul.menu").fadeIn();
 	});
 }
 
