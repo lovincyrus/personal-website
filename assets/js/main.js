@@ -33,3 +33,9 @@ if (!sessionStorage.getItem("is_loaded")) {
 
 // meme
 console.image("https://i.imgur.com/hKGenSr.jpg");
+
+
+$(".menu a").on("click", function(){
+   $(".menu").find(".active").removeClass("active");
+   $(this).parent().addClass("active");
+});

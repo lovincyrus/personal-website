@@ -34,14 +34,23 @@ img.headshot {
     image-rendering: optimizeQuality;
 }
 
+section {
+    padding: 10px 0;
+    max-width: 410px;
+    text-align: center;
+    display: flex;
+    /*justify-content: center;*/
+    align-items: center;
+    margin-left: auto;
+    margin-right: auto;
+}
+
 ul.menu {
     font-family: Avenir;
     font-weight: 900;
     font-size: 16px;
     display: flex;
     list-style-type: none;
-    left: 436px;
-    top: 140px;
     margin-left: auto;
     margin-right: auto;
     white-space: nowrap;
@@ -205,4 +214,20 @@ h1.pro-name {
     left: 440px;
     animation: fadein .5s both;
     animation-delay: .3s;
+}
+
+
+/** @media **/
+@media screen and (max-width: 400px) {
+a.menu {
+    font-family: Avenir, 'Lato';
+    text-decoration: none;
+    font-size: 17px;
+    padding: 5px 20px;
+    color:#F7F7F7;
+    display: inline-block;
+    border-radius: 6px;
+    margin: 0 5px;
+}   
+
 }
