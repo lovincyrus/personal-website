@@ -40,7 +40,7 @@ ul.menu {
     font-size: 16px;
     display: flex;
     list-style-type: none;
-    left: 438px;
+    left: 436px;
     top: 140px;
     margin-left: auto;
     margin-right: auto;
@@ -56,7 +56,7 @@ a.menu {
     text-decoration: none;
     font-size: 17px;
     padding: 5px 25px;
-    color: #454545;
+    color:#F7F7F7;
     display: inline-block;
     border-radius: 6px;
     margin: 0 5px;
@@ -72,11 +72,10 @@ a.menu {
     }
 }
 
-a.menu:hover {
-    /*color:#F7F7F7;*/
-    color: #ff0;
+/*a.menu:hover {
+    color:#F7F7F7;
     animation: fadein 1s both;
-}
+}*/
 
 .typed-cursor{
     display: none;
