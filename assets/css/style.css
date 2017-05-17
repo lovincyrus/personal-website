@@ -157,15 +157,13 @@ code {
     right: 31px;
     animation: fadein .5s both;
     animation-delay: .4s;
-    /* animation: fadein 1s both; */
 }
 
 .contact {
     position: absolute;
     right: 0;
     left: 640px;
-    margin-top: 136px;
-    /*text-decoration: none;*/
+    margin-top: 158px;
 }
 
 ul.link {
