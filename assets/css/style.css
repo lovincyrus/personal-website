@@ -138,12 +138,12 @@ h1.hero {
 p.description {
     color: #F7F7F7;
     font-family: Avenir;
-    font-size: 17px;
+    font-size: 15.6px;
     font-weight: normal;
     max-width: 500px;
     text-align: justify;
     position: absolute;
-    top: 73px;
+    top: 61px;
     animation: fadein .5s both;
     animation-delay: .35s;
 }
