@@ -148,6 +148,11 @@ p.description {
     animation-delay: .35s;
 }
 
+a.here {
+    text-decoration: none;
+    color: inherit;
+}
+
 code {
     color: #8d60f5;
     max-width: 500px;
@@ -162,8 +167,8 @@ code {
 .contact {
     position: absolute;
     right: 0;
-    left: 640px;
-    margin-top: 158px;
+    margin-top: 157px;
+    margin-right: 230px;
 }
 
 ul.link {
