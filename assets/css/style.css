@@ -1,3 +1,13 @@
+@keyframes fadein {
+    from {
+        opacity: 0;
+    }
+
+    to {
+        opacity: 0.85;
+    }
+}
+
 body {
     background-color: #151719;
     font-family: 'Lato', Avenir;
@@ -6,9 +16,14 @@ body {
     font-smoothing: antialiased;
 }
 
-div#main {
+div#left-main {
     margin: 80px auto 40px;
-    max-width: 700px;
+    max-width: 1100px;
+}
+
+div#right-main {
+    margin: 80px auto 40px;
+    max-width: 1100px;
 }
 
 #about {
@@ -20,8 +35,8 @@ div#main {
     display: flex;
     justify-content: center;
     align-items: center;
-    padding-top: 12vh;
-    padding-right: 9vw;
+    max-width: 34em;
+    position: relative;
 }
 
 img.headshot {
@@ -34,8 +49,8 @@ img.headshot {
     image-rendering: optimizeQuality;
 }
 
-section {
-    padding: 10px 0;
+section#nav {
+    margin-top: 15px;
     max-width: 410px;
     text-align: center;
     display: flex;
@@ -64,6 +79,7 @@ a.menu {
     font-family: Avenir, 'Lato';
     text-decoration: none;
     font-size: 17px;
+    font-weight: 500;
     padding: 5px 25px;
     color:#F7F7F7;
     display: inline-block;
@@ -71,66 +87,66 @@ a.menu {
     margin: 0 5px;
 }
 
-@keyframes fadein {
-    from {
-        opacity: 0;
-    }
-
-    to {
-        opacity: 0.85;
-    }
-}
-
-/*a.menu:hover {
+a.menu:hover {
     color:#F7F7F7;
     animation: fadein 1s both;
-}*/
+}
+
+li.active {
+    /*color:#F7F7F7;*/
+    border-bottom: 2px #ff0 solid;
+    font-weight: bold;
+    /*animation: fadein 1s both;*/
+    -webkit-transition: color 0.5s;
+    transition: color 0.5s;
+}
 
 .typed-cursor{
     display: none;
 }
 
-.sayHello {
+#sayHello {
     font-size: 20px;
     color: #f7f7f7;
     opacity: 0.75;
     margin-top: 20vh;
 }
 
-/* about */
-.hero {
-    margin: 70px auto 40px;
-    right: 150px;
-    max-width: 500px;
-    z-index: 999999;
-    position: relative;
-    height: 85vh;
-}
-
-.name {
-    color: #fff;
-    font-size: 38px;
-    text-transform: uppercase;
-    animation: fadein .5s both;
-    animation-delay: .2s;
-}
-
-p.bio {
+h1.hero {
+    color: #F7F7F7;
     font-family: Avenir;
-    color: #ccc;
-    font-size: 18px;
-    line-height: 1.5;
-    margin-bottom: 30px;
+    /* margin-bottom: 260px; */
+    width: 200px;
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+}
+
+p.description {
+    color: #F7F7F7;
+    font-family: Avenir;
+    font-size: 17px;
+    font-weight: normal;
+    max-width: 500px;
     text-align: justify;
-    animation: fadein .5s both;
-    animation-delay: .3s;
+    position: absolute;
+    top: 73px;
 }
 
-span {
-    color: #6C57A2;
+code {
+    color: #8d60f5;
+    max-width: 500px;
+    text-align: justify;
+    position: absolute;
+    top: 290px;
+    right: 31px;
+    /* animation: fadein 1s both; */
 }
 
-button {
+
+/*nice button css*/
+/*button {
     cursor: pointer;
     display: block;
     color: #6C57A2;
@@ -145,46 +161,9 @@ button {
     transition: .3s ease;
 }
 
-a {
-    text-decoration: none;
-}
-
 button:hover {
     color: white;
-}
-
-p {
-    font-family: Avenir;
-    color: #ccc;
-    font-size: 18px;
-    line-height: 1.5;
-    margin-bottom: 30px;
-    text-align: justify;
-    animation: fadein .5s both;
-    animation-delay: .3s;
-}
-
-.overlay-bg {
-    float: right;
-    z-index: 999999;
-    position: fixed;
-    /*opacity: 0.55;*/
-    top: -1px;
-    /*right: 440px;*/
-    right: 280px;
-    width: 200px;
-}
-
-img.moma {
-    width: 320px;
-    z-index: -69;
-    position: fixed;
-    border-radius: 0.5%;
-    box-shadow: 10px 10px 5px rgba(0,0,0,.08);
-    image-rendering: optimizeQuality;
-    animation: fadein .5s both;
-    animation-delay: .2s;
-}
+}*/
 
 /* project */
 .projects {
@@ -217,17 +196,19 @@ h1.pro-name {
 }
 
 
+
+
+
 /** @media **/
 @media screen and (max-width: 400px) {
-a.menu {
-    font-family: Avenir, 'Lato';
-    text-decoration: none;
-    font-size: 17px;
-    padding: 5px 20px;
-    color:#F7F7F7;
-    display: inline-block;
-    border-radius: 6px;
-    margin: 0 5px;
-}   
-
+    a.menu {
+        font-family: Avenir, 'Lato';
+        text-decoration: none;
+        font-size: 17px;
+        padding: 5px 20px;
+        color:#F7F7F7;
+        display: inline-block;
+        border-radius: 6px;
+        margin: 0 5px;
+    }   
 }
