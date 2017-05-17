@@ -49,7 +49,7 @@ img.headshot {
     border: 0;
     width: 90px;
     z-index: -99999999;
-    border-radius: 10px;
+    border-radius: 5px;
     box-shadow: 10px 10px 5px rgba(0,0,0,.08);
     animation: fadein .5s both;
     animation-delay: .2s;
@@ -58,10 +58,10 @@ img.headshot {
 
 section#nav {
     margin-top: 15px;
-    max-width: 410px;
+    max-width: 363px;
     text-align: center;
     display: flex;
-    /*justify-content: center;*/
+    /* justify-content: center; */
     align-items: center;
     margin-left: auto;
     margin-right: auto;
@@ -89,8 +89,8 @@ a.menu {
     text-decoration: none;
     font-size: 17px;
     font-weight: 500;
-    padding: 5px 25px;
-    color:#F7F7F7;
+    padding: 0 17px;
+    color: #F7F7F7;
     display: inline-block;
     border-radius: 6px;
     margin: 0 5px;
@@ -98,7 +98,8 @@ a.menu {
 
 a.menu:hover {
     color:#F7F7F7;
-    animation: fadein 1s both;
+    opacity: 0.75;
+    /*animation: fadein 1s both;*/
 }
 
 li.active {
@@ -118,7 +119,7 @@ li.active {
     font-size: 20px;
     color: #f7f7f7;
     opacity: 0.75;
-    margin-top: 28vh;
+    margin-top: 27vh;
 }
 
 h1.hero {
