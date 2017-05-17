@@ -19,11 +19,16 @@ body {
 div#left-main {
     margin: 80px auto 40px;
     max-width: 1100px;
+    margin-left: 210px;
 }
 
 div#right-main {
-    margin: 80px auto 40px;
-    max-width: 1100px;
+    /*max-width: 700px;*/
+    position: relative;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 #about {
@@ -46,6 +51,8 @@ img.headshot {
     z-index: -99999999;
     border-radius: 10px;
     box-shadow: 10px 10px 5px rgba(0,0,0,.08);
+    animation: fadein .5s both;
+    animation-delay: .2s;
     image-rendering: optimizeQuality;
 }
 
@@ -73,6 +80,8 @@ ul.menu {
     justify-content: center;
     align-items: center;
     position: absolute;
+    animation: fadein .5s both;
+    animation-delay: .25s;
 }
 
 a.menu {
@@ -109,7 +118,7 @@ li.active {
     font-size: 20px;
     color: #f7f7f7;
     opacity: 0.75;
-    margin-top: 32vh;
+    margin-top: 28vh;
 }
 
 h1.hero {
@@ -121,6 +130,8 @@ h1.hero {
     top: 0;
     bottom: 0;
     left: 0;
+    animation: fadein .5s both;
+    animation-delay: .3s;
 }
 
 p.description {
@@ -132,6 +143,8 @@ p.description {
     text-align: justify;
     position: absolute;
     top: 73px;
+    animation: fadein .5s both;
+    animation-delay: .35s;
 }
 
 code {
@@ -141,29 +154,63 @@ code {
     position: absolute;
     top: 290px;
     right: 31px;
+    animation: fadein .5s both;
+    animation-delay: .4s;
     /* animation: fadein 1s both; */
 }
 
-
-/*nice button css*/
-/*button {
-    cursor: pointer;
-    display: block;
-    color: #6C57A2;
-    border: 1px solid currentColor;
-    background: transparent;
-    font-size: 1rem;
-    font-family: Avenir;
-    outline: none;
-    padding: 8px 16px;
-    border-radius: 3px;
-    -webkit-transition: .3s ease;
-    transition: .3s ease;
+.contact {
+    position: absolute;
+    right: 0;
+    left: 640px;
+    margin-top: 136px;
+    /*text-decoration: none;*/
 }
 
-button:hover {
-    color: white;
+ul.link {
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    display: grid;
+}
+
+li {
+    list-style-type: none;
+    text-decoration: none;
+}
+
+/*li.hook-me-up {
+    color: #F7F7F7;
+    font-size: 17px;
+    font-weight: 100;
+    font-family: Avenir, 'Lato';
+    text-align: left;
+    animation: fadein .5s both;
+    animation-delay: .45s;
 }*/
+
+li.hook-me-up {
+    color: #F7F7F7;
+    font-family: Avenir, 'Lato';
+    text-align: left;
+    font-size: 0.65em;
+    font-weight: 700;
+    text-indent: 3px;
+    letter-spacing: 3px;
+    text-transform: uppercase;
+    animation: fadein .5s both;
+    animation-delay: .45s;
+}
+
+a.social-media {
+    text-decoration: none;
+    color: #8d60f5;
+    letter-spacing: 0.2px;
+    margin-bottom: 24px;
+    text-align: left;
+    animation: fadein .5s both;
+    animation-delay: .45s;
+}
 
 /* project */
 .projects {
@@ -194,6 +241,26 @@ h1.pro-name {
     animation: fadein .5s both;
     animation-delay: .3s;
 }
+
+/*nice button css*/
+/*button {
+    cursor: pointer;
+    display: block;
+    color: #6C57A2;
+    border: 1px solid currentColor;
+    background: transparent;
+    font-size: 1rem;
+    font-family: Avenir;
+    outline: none;
+    padding: 8px 16px;
+    border-radius: 3px;
+    -webkit-transition: .3s ease;
+    transition: .3s ease;
+}
+
+button:hover {
+    color: white;
+}*/
 
 
 

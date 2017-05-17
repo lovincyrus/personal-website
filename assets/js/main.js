@@ -6,17 +6,26 @@ function sayHello() {
 	// typeSpeed: 30
 	});
 
+	// hide these lads
 	$("img").hide();
 	$("ul.menu").hide();
 	$("h1.hero").hide();
 	$("p.description").hide();
 	$("code").hide();
+	$("li.hook-me-up").hide();
+	$("a.social-media").hide();
+
+	// fadeout
 	$("#sayHello").delay(12000).fadeOut();
 	$("img").delay(12500).fadeIn(1000);
+
+	// fadein
 	$("ul.menu").delay(12500).fadeIn(1000);
 	$("h1.hero").delay(12500).fadeIn(1000);
 	$("p.description").delay(12500).fadeIn(1000);
 	$("code").delay(12500).fadeIn(1000);
+	$("li.hook-me-up").delay(12500).fadeIn(1000);
+	$("a.social-media").delay(12500).fadeIn(1000);
 
 	$(document).click(function() {
 		$("#sayHello").hide();
@@ -25,6 +34,8 @@ function sayHello() {
 		$("h1.hero").fadeIn();
 		$("p.description").fadeIn();
 		$("code").fadeIn();
+		$("li.hook-me-up").fadeIn();
+		$("a.social-media").fadeIn();
 	}).keydown(function() {
 		$("#sayHello").hide();
 		$("img").fadeIn();
@@ -32,6 +43,8 @@ function sayHello() {
 		$("h1.hero").fadeIn();
 		$("p.description").fadeIn();
 		$("code").fadeIn();
+		$("li.hook-me-up").fadeIn();
+		$("a.social-media").fadeIn();
 	});
 }
 
