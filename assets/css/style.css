@@ -10,7 +10,7 @@
 
 body {
     background-color: #151719;
-    font-family: 'Lato', Avenir;
+    font-family: Avenir, 'Lato';
     font-style: normal;
     -webkit-font-smoothing: antialiased;
     font-smoothing: antialiased;
@@ -68,7 +68,7 @@ section#nav {
 }
 
 ul.menu {
-    font-family: Avenir;
+    font-family: Avenir, 'Lato';
     font-weight: 900;
     font-size: 16px;
     display: flex;
@@ -124,7 +124,7 @@ li.active {
 
 h1.hero {
     color: #F7F7F7;
-    font-family: Avenir;
+    font-family: Avenir, 'Lato';
     /* margin-bottom: 260px; */
     width: 200px;
     position: absolute;
@@ -137,7 +137,7 @@ h1.hero {
 
 p.description {
     color: #F7F7F7;
-    font-family: Avenir;
+    font-family: Avenir, 'Lato';
     font-size: 15.6px;
     font-weight: normal;
     max-width: 500px;
@@ -167,7 +167,7 @@ code {
 .contact {
     position: absolute;
     right: 0;
-    margin-top: 157px;
+    margin-top: 170px;
     margin-right: 230px;
 }
 
