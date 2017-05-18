@@ -89,7 +89,7 @@ a.menu {
     text-decoration: none;
     font-size: 17px;
     font-weight: 500;
-    padding: 0 17px;
+    padding: 3px 17px;
     color: #F7F7F7;
     display: inline-block;
     border-radius: 6px;
@@ -160,6 +160,7 @@ code {
     position: absolute;
     top: 290px;
     right: 31px;
+    padding-top: 20px;
     animation: fadein .5s both;
     animation-delay: .4s;
 }
@@ -167,7 +168,7 @@ code {
 .contact {
     position: absolute;
     right: 0;
-    margin-top: 170px;
+    margin-top: 180px;
     margin-right: 230px;
 }
 
