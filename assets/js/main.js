@@ -8,7 +8,7 @@ function sayHello() {
 
 	// hide these lads
 	$("img").hide();
-	$("ul.menu").hide();
+	$("ul.menu-container").hide();
 	$("h1.hero").hide();
 	$("p.description").hide();
 	$("code").hide();
@@ -20,7 +20,7 @@ function sayHello() {
 	$("img").delay(12500).fadeIn(1000);
 
 	// fadein
-	$("ul.menu").delay(12500).fadeIn(1000);
+	$("ul.menu-container").delay(12500).fadeIn(1000);
 	$("h1.hero").delay(12500).fadeIn(1000);
 	$("p.description").delay(12500).fadeIn(1000);
 	$("code").delay(12500).fadeIn(1000);
@@ -30,7 +30,7 @@ function sayHello() {
 	$(document).click(function() {
 		$("#sayHello").hide();
 		$("img").fadeIn();
-		$("ul.menu").fadeIn();
+		$("ul.menu-container").fadeIn();
 		$("h1.hero").fadeIn();
 		$("p.description").fadeIn();
 		$("code").fadeIn();
@@ -39,7 +39,7 @@ function sayHello() {
 	}).keydown(function() {
 		$("#sayHello").hide();
 		$("img").fadeIn();
-		$("ul.menu").fadeIn();
+		$("ul.menu-container").fadeIn();
 		$("h1.hero").fadeIn();
 		$("p.description").fadeIn();
 		$("code").fadeIn();
@@ -57,14 +57,17 @@ if (!sessionStorage.getItem("is_loaded")) {
 	
 
 // meme
-console.image("https://i.imgur.com/hKGenSr.jpg");
+// console.image("https://i.imgur.com/hKGenSr.jpg");
 
 
-$(function() {
-   $(".menu").click(function() {
-      // remove classes from all
-      $(".menu").removeClass("active");
-      // add class to the one we clicked
-      $(this).addClass("active");
-   });
-});
+
+// $(document).ready(function () {
+//     $('a.menu-container').on('click', function (e) {
+//         e.preventDefault();
+        
+//         $('a').each(function () {
+//             $(this).removeClass('active');
+//         })
+//         $(this).addClass('active');
+//     });
+// });
