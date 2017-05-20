@@ -118,7 +118,7 @@ a.menu:hover {
     font-size: 20px;
     color: #f7f7f7;
     opacity: 0.75;
-    margin-top: -12vh;
+    margin-top: -18vh;
 }
 
 h1.hero {
@@ -272,6 +272,30 @@ button:hover {
 
 /** @media **/
 @media screen and (max-width: 400px) {
+    #sayHello {
+        font-size: 20px;
+        color: #f7f7f7;
+        opacity: 0.75;
+        margin-top: -25vh;
+    }
+
+    section#nav {
+        margin-top: 15px;
+        max-width: 375px;
+        text-align: center;
+        display: flex;
+        align-items: center;
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    div#main-container {
+        margin: 80px auto 40px 11vw;
+        max-width: 600px;
+        height: 300px;
+        width: 285px;
+    }
+
     a.menu {
         font-family: Avenir, 'Lato';
         text-decoration: none;
@@ -286,14 +310,12 @@ button:hover {
     h1.hero {
         color: #F7F7F7;
         font-family: Avenir, 'Lato';
-        width: 200px;
         position: absolute;
         top: 0;
         bottom: 0;
-        left: 0;
+        left: -25px;
         animation: fadein .5s both;
         animation-delay: .3s;
-        display: none;
     }
 
     p.description {
@@ -301,59 +323,38 @@ button:hover {
         font-family: Avenir, 'Lato';
         font-size: 15.6px;
         font-weight: normal;
-        max-width: 500px;
         text-align: justify;
         position: absolute;
-        top: 61px;
+        left: 0;
         animation: fadein .5s both;
         animation-delay: .35s;
-        display: none;
     }
 
     code {
         color: #8d60f5;
         max-width: 500px;
         text-align: justify;
+        line-height: 15px;
         position: absolute;
-        top: 290px;
-        right: 31px;
-        padding-top: 20vh;
+        top: 310px;
+        right: 0px;
+        padding-top: 25vh;
         animation: fadein .5s both;
         animation-delay: .4s;
     }
 
-    ul.link {
-        display: none;
+    .contact {
+        position: absolute;
+        right: 0;
+        top: 280px;
+        margin-right: 160px;
     }
 
 }
 
 
 /*@media screen and (min-width: 1280px) {
-    img.headshot {
-        margin-top: 30px;
-        border: 0;
-        width: 90px;
-        z-index: -99999999;
-        border-radius: 5px;
-        box-shadow: 10px 10px 5px rgba(0,0,0,.08);
-        animation: fadein .5s both;
-        animation-delay: .2s;
-        image-rendering: optimizeQuality;
-    }
 
-    div#left-main {
-        margin: 80px auto 40px;
-        max-width: 1100px;
-        margin-left: 230px;
-    }
-
-    .contact {
-        position: absolute;
-        right: 0;
-        margin-top: 180px;
-        margin-right: 270px;
-    }
 
 }*/
 
