@@ -8,6 +8,10 @@
     }
 }
 
+html {
+    height: 100%;
+}
+
 body {
     background-color: #151719;
     font-family: Avenir, 'Lato';
@@ -313,7 +317,7 @@ button:hover {
         position: absolute;
         top: 0;
         bottom: 0;
-        left: -25px;
+        left: -22px;
         animation: fadein .5s both;
         animation-delay: .3s;
     }
@@ -334,7 +338,7 @@ button:hover {
         color: #8d60f5;
         max-width: 500px;
         text-align: justify;
-        line-height: 15px;
+        line-height: 17px;
         position: absolute;
         top: 310px;
         right: 0px;

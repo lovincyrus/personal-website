@@ -62,12 +62,11 @@ if (!sessionStorage.getItem("is_loaded")) {
 
 
 // $(document).ready(function () {
-//     $('a.menu-container').on('click', function (e) {
-//         e.preventDefault();
-        
-//         $('a').each(function () {
+//     $('a.menu').on('click', function (e) {
+//         $('a.active').each(function () {
 //             $(this).removeClass('active');
 //         })
 //         $(this).addClass('active');
+//         e.preventDefault();
 //     });
 // });
