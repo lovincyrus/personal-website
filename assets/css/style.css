@@ -187,23 +187,12 @@ li {
     text-decoration: none;
 }
 
-/*li.hook-me-up {
-    color: #F7F7F7;
-    font-size: 17px;
-    font-weight: 100;
-    font-family: Avenir, 'Lato';
-    text-align: left;
-    animation: fadein .5s both;
-    animation-delay: .45s;
-}*/
-
 li.hook-me-up {
     color: #F7F7F7;
     font-family: Avenir, 'Lato';
     text-align: left;
     font-size: 0.65em;
     font-weight: 700;
-    /*text-indent: 3px;*/
     letter-spacing: 3px;
     text-transform: uppercase;
     animation: fadein .5s both;
