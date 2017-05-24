@@ -1,4 +1,3 @@
-// Typed.js
 function sayHello() {
 	Typed.new("#sayHello", {
 	strings: ["Hello. ^100", "I'm glad that you're here. ^100", "No, no, no! ^10", "I'm really happy, pleased, contented, delighted, thrilled, overjoyed, elated, gleeful and thankful that you're here. ^100"]
@@ -57,16 +56,15 @@ if (!sessionStorage.getItem("is_loaded")) {
 	
 
 // meme
-// console.image("https://i.imgur.com/hKGenSr.jpg");
+console.image("https://i.imgur.com/hKGenSr.jpg");
 
-
-
-// $(document).ready(function () {
-//     $('a.menu').on('click', function (e) {
-//         $('a.active').each(function () {
-//             $(this).removeClass('active');
-//         })
-//         $(this).addClass('active');
-//         e.preventDefault();
-//     });
-// });
+// change nav
+$(document).ready(function () {
+    $('a[href^="#"]').on('click', function (e) {
+        e.preventDefault();
+        $('a').each(function () {
+            $(this).removeClass('active');
+        })
+        $(this).addClass('active');
+    });
+});

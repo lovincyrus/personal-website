@@ -90,7 +90,7 @@ ul.menu-container {
     animation-delay: .25s;
 }
 
-a.menu {
+a#menu {
     font-family: Avenir, 'Lato';
     text-decoration: none;
     font-size: 17px;
@@ -102,14 +102,15 @@ a.menu {
     margin: 0 5px;
 }
 
-a.menu:hover {
-    color:#F7F7F7;
+a#menu:hover {
     opacity: 0.75;
 }
 
-.active {
-    border-bottom: 2px #ff0 solid;
-    font-weight: bold;
+
+a#menu.active {
+    font-weight: 900;
+    /*color: #ff0;*/
+    color: #007AFF;
     -webkit-transition: color 0.5s;
     transition: color 0.5s;
 }
@@ -329,7 +330,7 @@ h1.pro-name {
         width: 285px;
     }
 
-    a.menu {
+    a#menu {
         font-family: Avenir, 'Lato';
         text-decoration: none;
         font-size: 17px;
