@@ -239,31 +239,71 @@ h1.pro-name {
     animation-delay: .3s;
 }
 
-/*nice button css*/
-/*button {
-    cursor: pointer;
-    display: block;
-    color: #6C57A2;
-    border: 1px solid currentColor;
-    background: transparent;
-    font-size: 1rem;
-    font-family: Avenir;
-    outline: none;
-    padding: 8px 16px;
-    border-radius: 3px;
-    -webkit-transition: .3s ease;
-    transition: .3s ease;
-}
-
-button:hover {
-    color: white;
-}*/
-
 
 
 
 
 /** @media **/
+@media screen and (min-width: 1440px) {
+    #sayHello {
+        font-size: 20px;
+        color: #f7f7f7;
+        opacity: 0.75;
+        margin-top: 5vh;
+    }
+
+    img.headshot {
+        margin-top: 10vh;
+        border: 0;
+        width: 100px;
+        z-index: -99999999;
+        position: relative;
+        border-radius: 5px;
+        box-shadow: 10px 10px 5px rgba(0,0,0,.08);
+        animation: fadein .5s both;
+        animation-delay: .2s;
+        image-rendering: optimizeQuality;
+    }
+
+    div#main-container {
+        margin: 80px auto 40px 26vw;
+        max-width: 600px;
+        height: 300px;
+        width: 550px;
+    }
+
+    h1.hero {
+        color: #F7F7F7;
+        font-family: Avenir, 'Lato';
+        width: 200px;
+        position: absolute;
+        top: 0;
+        bottom: 0;
+        left: 0;
+        animation: fadein .5s both;
+        animation-delay: .3s;
+    }
+
+    .contact {
+        position: absolute;
+        right: -305px;
+        bottom: -20px;
+    }
+}
+
+
+@media screen and (min-width: 401px) and (max-width: 1120px) {
+    .contact {
+        position: absolute;
+        right: 0;
+        bottom: -16px;
+        margin-right: 170px;
+        display: none;
+    }
+
+}
+
+
 @media screen and (max-width: 400px) {
     #sayHello {
         font-size: 20px;
@@ -343,57 +383,4 @@ button:hover {
         margin-right: 160px;
     }
 
-}
-
-
-/*@media screen and (min-width: 1280px) {
-
-
-}*/
-
-@media screen and (min-width: 1440px) {
-    #sayHello {
-        font-size: 20px;
-        color: #f7f7f7;
-        opacity: 0.75;
-        margin-top: 5vh;
-    }
-
-    img.headshot {
-        margin-top: 10vh;
-        border: 0;
-        width: 100px;
-        z-index: -99999999;
-        position: relative;
-        border-radius: 5px;
-        box-shadow: 10px 10px 5px rgba(0,0,0,.08);
-        animation: fadein .5s both;
-        animation-delay: .2s;
-        image-rendering: optimizeQuality;
-    }
-
-    div#main-container {
-        margin: 80px auto 40px 26vw;
-        max-width: 600px;
-        height: 300px;
-        width: 550px;
-    }
-
-    h1.hero {
-        color: #F7F7F7;
-        font-family: Avenir, 'Lato';
-        width: 200px;
-        position: absolute;
-        top: 0;
-        bottom: 0;
-        left: 0;
-        animation: fadein .5s both;
-        animation-delay: .3s;
-    }
-
-    .contact {
-        position: absolute;
-        right: -305px;
-        bottom: -20px;
-    }
 }
