@@ -157,7 +157,7 @@ a.here {
 }
 
 code {
-    color: #8d60f5;
+    color: #007AFF;
     max-width: 500px;
     text-align: justify;
     position: absolute;
@@ -201,7 +201,7 @@ li.hook-me-up {
 
 a.social-media {
     text-decoration: none;
-    color: #8d60f5;
+    color: #007AFF;
     letter-spacing: 0.2px;
     margin-bottom: 24px;
     text-align: left;
@@ -364,7 +364,7 @@ h1.pro-name {
     }
 
     code {
-        color: #8d60f5;
+        color: #007AFF;
         max-width: 500px;
         text-align: justify;
         line-height: 17px;
