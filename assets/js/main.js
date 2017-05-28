@@ -68,3 +68,15 @@ $(document).ready(function () {
         $(this).addClass('active');
     });
 });
+
+// switch nav content
+$(document).ready(function(){
+    $("a#about").click(function(){
+		document.getElementById("main-container").style.display = '';
+		document.getElementById("right-main").style.display = '';
+    });
+	$("a#projects").click(function(){
+		document.getElementById("main-container").style.display = 'none';
+		document.getElementById("right-main").style.display = 'none';
+	});
+});

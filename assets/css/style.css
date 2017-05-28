@@ -90,7 +90,7 @@ ul.menu-container {
     animation-delay: .25s;
 }
 
-a#menu {
+a#about {
     font-family: Avenir, 'Lato';
     text-decoration: none;
     font-size: 17px;
@@ -102,14 +102,61 @@ a#menu {
     margin: 0 5px;
 }
 
-a#menu:hover {
+a#about:hover {
+    opacity: 0.75;
+}
+
+a#about.active {
+    font-weight: 900;
+    /*color: #ff0;*/
+    color: #007AFF;
+    -webkit-transition: color 0.5s;
+    transition: color 0.5s;
+}
+
+a#projects {
+    font-family: Avenir, 'Lato';
+    text-decoration: none;
+    font-size: 17px;
+    font-weight: 500;
+    padding: 3px 17px;
+    color: #F7F7F7;
+    display: inline-block;
+    border-radius: 6px;
+    margin: 0 5px;
+}
+
+a#projects:hover {
+    opacity: 0.75;
+}
+
+a#projects.active {
+    font-weight: 900;
+    /*color: #ff0;*/
+    color: #007AFF;
+    -webkit-transition: color 0.5s;
+    transition: color 0.5s;
+}
+
+a#resume {
+    font-family: Avenir, 'Lato';
+    text-decoration: none;
+    font-size: 17px;
+    font-weight: 500;
+    padding: 3px 17px;
+    color: #F7F7F7;
+    display: inline-block;
+    border-radius: 6px;
+    margin: 0 5px;
+}
+
+a#resume:hover {
     opacity: 0.75;
 }
 
 
-a#menu.active {
+a#resume.active {
     font-weight: 900;
-    /*color: #ff0;*/
     color: #007AFF;
     -webkit-transition: color 0.5s;
     transition: color 0.5s;
@@ -351,6 +398,28 @@ h1.pro-name {
     }
 
     a#menu {
+        font-family: Avenir, 'Lato';
+        text-decoration: none;
+        font-size: 17px;
+        padding: 5px 20px;
+        color:#F7F7F7;
+        display: inline-block;
+        border-radius: 6px;
+        margin: 0 5px;
+    }
+
+    a#about {
+        font-family: Avenir, 'Lato';
+        text-decoration: none;
+        font-size: 17px;
+        padding: 5px 20px;
+        color:#F7F7F7;
+        display: inline-block;
+        border-radius: 6px;
+        margin: 0 5px;
+    }
+
+    a#projects {
         font-family: Avenir, 'Lato';
         text-decoration: none;
         font-size: 17px;
