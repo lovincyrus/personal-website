@@ -67,7 +67,6 @@ section#nav {
     max-width: 363px;
     text-align: center;
     display: flex;
-    /* justify-content: center; */
     align-items: center;
     margin-left: auto;
     margin-right: auto;
@@ -260,13 +259,22 @@ a.social-media {
 }
 
 /* project */
-.projects {
+div#projects-container {
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
     margin: 70px auto 40px;
     max-width: 900px;
 }
 
+.projects {
+    margin: 40px auto 40px;
+    max-width: 900px;
+}
+
 .container {
-    margin: 50px 0 -150px;
+    margin: -20px 0 -150px;
     max-width: 600px;
 }
 
@@ -283,13 +291,11 @@ h1.pro-name {
     font-size: 75px;
     position: relative;
     z-index: 1;
-    bottom: 170px;
-    left: 440px;
+    bottom: 250px;
+    left: 410px;
     animation: fadein .5s both;
     animation-delay: .3s;
 }
-
-
 
 
 
@@ -473,5 +479,4 @@ h1.pro-name {
         top: 280px;
         margin-right: 160px;
     }
-
 }

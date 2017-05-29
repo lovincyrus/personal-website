@@ -13,6 +13,7 @@ function sayHello() {
 	$("code").hide();
 	$("li.hook-me-up").hide();
 	$("a.social-media").hide();
+	$("#projects-container").hide();
 
 	// fadeout
 	$("#sayHello").delay(12000).fadeOut();
@@ -50,9 +51,14 @@ function sayHello() {
 if (!sessionStorage.getItem("is_loaded")) {
 	sayHello();
 	sessionStorage.setItem("is_loaded", true);
-} else if (sessionStorage.getItem("is_loaded") == true) {
-	console.log("it's loaded bruh");
-} else { console.log("oh well"); }
+}
+
+// if (!sessionStorage.getItem("is_loaded")) {
+// 	sayHello();
+// 	sessionStorage.setItem("is_loaded", true);
+// } else if (sessionStorage.getItem("is_loaded") == true) {
+// 	console.log("it's loaded bruh");
+// } else { console.log("oh well"); }
 	
 
 // meme
@@ -71,12 +77,16 @@ $(document).ready(function () {
 
 // switch nav content
 $(document).ready(function(){
+	document.getElementById("projects-container").style.display = 'none';
+
     $("a#about").click(function(){
 		document.getElementById("main-container").style.display = '';
 		document.getElementById("right-main").style.display = '';
+		document.getElementById("projects-container").style.display = 'none';
     });
 	$("a#projects").click(function(){
 		document.getElementById("main-container").style.display = 'none';
 		document.getElementById("right-main").style.display = 'none';
+		document.getElementById("projects-container").style.display = '';
 	});
 });
