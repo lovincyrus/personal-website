@@ -347,6 +347,28 @@ h1.pro-name {
     }
 }
 
+@media screen and (min-width: 1280px) {
+    #sayHello {
+        font-size: 20px;
+        color: #f7f7f7;
+        opacity: 0.75;
+        margin-top: -17vh;
+    }
+
+    img.headshot {
+        margin-top: 10vh;
+        border: 0;
+        width: 100px;
+        z-index: -99999999;
+        position: relative;
+        border-radius: 5px;
+        box-shadow: 10px 10px 5px rgba(0,0,0,.08);
+        animation: fadein .5s both;
+        animation-delay: .2s;
+        image-rendering: optimizeQuality;
+    }
+}
+
 
 @media screen and (min-width: 401px) and (max-width: 1120px) {
     .contact {
