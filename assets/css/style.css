@@ -169,6 +169,7 @@ a#resume.active {
     color: #f7f7f7;
     opacity: 0.75;
     margin-top: -18vh;
+    /*margin-top: calc(100%-20vh);*/
 }
 
 h1.hero {
