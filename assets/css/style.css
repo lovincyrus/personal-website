@@ -107,7 +107,6 @@ a#about:hover {
 
 a#about.active {
     font-weight: 900;
-    /*color: #ff0;*/
     color: #007AFF;
     -webkit-transition: color 0.5s;
     transition: color 0.5s;
@@ -304,7 +303,7 @@ p.discover {
     position: relative;
     z-index: 1;
     bottom: 250px;
-    left: 540px;
+    left: 520px;
     animation: fadein .5s both;
     animation-delay: .4s;
 }
