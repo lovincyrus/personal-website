@@ -292,7 +292,7 @@ h1.pro-name {
     position: relative;
     z-index: 1;
     bottom: 250px;
-    left: 410px;
+    margin-left: 400px;
     animation: fadein .5s both;
     animation-delay: .35s;
 }
@@ -304,7 +304,7 @@ p.discover {
     position: relative;
     z-index: 1;
     bottom: 250px;
-    left: 520px;
+    margin-left: 515px;
     animation: fadein .5s both;
     animation-delay: .4s;
 }
