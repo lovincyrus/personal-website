@@ -53,14 +53,6 @@ if (!sessionStorage.getItem("is_loaded")) {
 	sessionStorage.setItem("is_loaded", true);
 }
 
-// if (!sessionStorage.getItem("is_loaded")) {
-// 	sayHello();
-// 	sessionStorage.setItem("is_loaded", true);
-// } else if (sessionStorage.getItem("is_loaded") == true) {
-// 	console.log("it's loaded bruh");
-// } else { console.log("oh well"); }
-	
-
 // meme
 console.image("https://i.imgur.com/hKGenSr.jpg");
 

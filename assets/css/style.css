@@ -21,7 +21,7 @@ body {
 }
 
 div#main-container {
-    margin: 80px auto 40px 17vw;
+    margin: 50px auto 40px 17vw;
     max-width: 600px;
     height: 300px;
     width: 550px;
@@ -283,7 +283,7 @@ img.pro-img {
     z-index: -1;
     border-radius: 0.85%;
     animation: fadein .5s both;
-    animation-delay: .2s;
+    animation-delay: .3s;
 }
 
 h1.pro-name {
@@ -294,8 +294,33 @@ h1.pro-name {
     bottom: 250px;
     left: 410px;
     animation: fadein .5s both;
-    animation-delay: .3s;
+    animation-delay: .35s;
 }
+
+p.discover {
+    color: #f9ed8a;
+    opacity: 0.85;
+    font-size: 16px;
+    position: relative;
+    z-index: 1;
+    bottom: 250px;
+    left: 540px;
+    animation: fadein .5s both;
+    animation-delay: .4s;
+}
+
+a.pro-projects {
+    text-decoration: none;
+    color: #f9ed8a;
+}
+
+a.pro-projects:hover {
+    opacity: 0.75;
+}
+
+
+
+
 
 
 
