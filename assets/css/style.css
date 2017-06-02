@@ -89,7 +89,7 @@ ul.menu-container {
     animation-delay: .25s;
 }
 
-a#about {
+a.nav {
     font-family: Avenir, 'Lato';
     text-decoration: none;
     font-size: 17px;
@@ -101,66 +101,15 @@ a#about {
     margin: 0 5px;
 }
 
-a#about:hover {
+a.nav:hover {
     opacity: 0.75;
 }
 
-a#about.active {
+a.nav.active {
     font-weight: 900;
     color: #007AFF;
     -webkit-transition: color 0.5s;
     transition: color 0.5s;
-}
-
-a#projects {
-    font-family: Avenir, 'Lato';
-    text-decoration: none;
-    font-size: 17px;
-    font-weight: 500;
-    padding: 3px 17px;
-    color: #F7F7F7;
-    display: inline-block;
-    border-radius: 6px;
-    margin: 0 5px;
-}
-
-a#projects:hover {
-    opacity: 0.75;
-}
-
-a#projects.active {
-    font-weight: 900;
-    color: #007AFF;
-    -webkit-transition: color 0.5s;
-    transition: color 0.5s;
-}
-
-a#resume {
-    font-family: Avenir, 'Lato';
-    text-decoration: none;
-    font-size: 17px;
-    font-weight: 500;
-    padding: 3px 17px;
-    color: #F7F7F7;
-    display: inline-block;
-    border-radius: 6px;
-    margin: 0 5px;
-}
-
-a#resume:hover {
-    opacity: 0.75;
-}
-
-
-a#resume.active {
-    font-weight: 900;
-    color: #007AFF;
-    -webkit-transition: color 0.5s;
-    transition: color 0.5s;
-}
-
-.typed-cursor{
-    display: none;
 }
 
 #sayHello {
@@ -345,7 +294,8 @@ p.brief {
     max-width: 360px;
     text-align: left;
     position: absolute;
-    margin-top: 63px;
+    padding-top: 100px;
+    /*margin-top: 63px;*/
     animation: fadein .5s both;
     animation-delay: .4s;
 }
