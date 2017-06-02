@@ -130,7 +130,6 @@ a#projects:hover {
 
 a#projects.active {
     font-weight: 900;
-    /*color: #ff0;*/
     color: #007AFF;
     -webkit-transition: color 0.5s;
     transition: color 0.5s;
@@ -316,7 +315,17 @@ div#projects-container {
     -moz-transform: scale(1.05);
     -ms-transform: scale(1.05);
     -o-transform: scale(1.05);
-    transform: scale(1.05);    
+    transform: scale(1.05);
+    -webkit-box-shadow: 0 0 30px rgba(0, 0, 0, .14);
+    -moz-box-shadow: 0 0 30px rgba(0, 0, 0, .14);
+    -ms-box-shadow: 0 0 30px rgba(0, 0, 0, .14);
+    -o-box-shadow: 0 0 30px rgba(0, 0, 0, .14);
+    box-shadow: 0 0 30px rgba(0, 0, 0, .14);
+}
+
+.mouseover:hover h1.pro-name,
+.mouseover:hover p.brief {
+    color: inherit;
 }
 
 h1.pro-name {
@@ -358,14 +367,6 @@ p.discover {
     animation-delay: .4s;
 }
 
-a.pro-projects {
-    text-decoration: none;
-    color: #f9ed8a;
-}
-
-a.pro-projects:hover {
-    opacity: 0.75;
-}
 
 
 
