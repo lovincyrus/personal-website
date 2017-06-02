@@ -218,6 +218,10 @@ div#projects-container {
     -webkit-transform-style: preserve-3d;
 }
 
+.link {
+    text-decoration: none;
+}
+
 .container {
     display: flex;
     align-items: center;
@@ -274,7 +278,7 @@ div#projects-container {
 
 .mouseover:hover h1.pro-name,
 .mouseover:hover p.brief {
-    color: inherit;
+    color: #151719;
 }
 
 h1.pro-name {
