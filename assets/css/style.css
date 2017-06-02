@@ -260,51 +260,70 @@ a.social-media {
 
 /* project */
 div#projects-container {
-    height: 100%;
     display: flex;
     justify-content: center;
     align-items: center;
-    margin: 70px auto 40px;
-    max-width: 900px;
-}
-
-.projects {
-    margin: 40px auto 40px;
-    max-width: 900px;
+    margin: 90px auto 90px;
+    max-width: 600px;
+    height: 200px;
 }
 
 .container {
-    margin: -20px 0 -150px;
-    max-width: 600px;
+    display: flex;
+    align-items: center;
+    border-radius: 3px;
+    height: 100%;
+    width: 100%;
 }
 
-img.pro-img {
-    position: relative;
-    z-index: -1;
-    border-radius: 0.85%;
-    animation: fadein .5s both;
-    animation-delay: .3s;
+.joyfeed-background:hover {
+    background: #c0392b;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #8e44ad, #c0392b);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #8e44ad, #c0392b); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
 }
+
+.fhda-background {
+    background: #36D1DC;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #5B86E5, #36D1DC);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #5B86E5, #36D1DC); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+}
+
 
 h1.pro-name {
+    /*margin-top: 40px;*/
+    margin-left: 10px;
     color: #fff;
-    font-size: 75px;
+    font-size: 50px;
     position: relative;
     z-index: 1;
-    bottom: 250px;
-    margin-left: 400px;
     animation: fadein .5s both;
     animation-delay: .35s;
+}
+
+p.brief {
+    margin-left: 10px;
+    color: #C7B9CC;
+    max-width: 360px;
+    text-align: left;
+    position: absolute;
+    margin-top: 63px;
+    animation: fadein .5s both;
+    animation-delay: .4s;
+}
+
+.right-arrow {
+    color: white;
+    margin-left: 300px;
+    position: static;
+    animation: fadein .5s both;
+    animation-delay: .45s;
 }
 
 p.discover {
     color: #f9ed8a;
     opacity: 0.85;
     font-size: 16px;
-    position: relative;
-    z-index: 1;
-    bottom: 250px;
-    margin-left: 515px;
+    padding-left: 20px;
     animation: fadein .5s both;
     animation-delay: .4s;
 }
@@ -330,7 +349,7 @@ a.pro-projects:hover {
         font-size: 20px;
         color: #f7f7f7;
         opacity: 0.75;
-        margin-top: 5vh;
+        margin-top: 8vh;
     }
 
     img.headshot {
@@ -377,7 +396,7 @@ a.pro-projects:hover {
         font-size: 20px;
         color: #f7f7f7;
         opacity: 0.75;
-        margin-top: -17vh;
+        margin-top: -10vh;
     }
 
     img.headshot {

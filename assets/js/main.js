@@ -53,7 +53,6 @@ if (!sessionStorage.getItem("is_loaded")) {
 	sessionStorage.setItem("is_loaded", true);
 }
 
-console.log("Cyrus Goh © 2017")
 console.image("https://i.imgur.com/hKGenSr.jpg");
 
 // change nav
