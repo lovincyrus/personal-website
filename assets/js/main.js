@@ -69,16 +69,16 @@ const Projects = { template: `	<div id="projects-container">
 
 
 // Define some routes
-// const routes = [
-// 	{ path: '/about', component: About, alias: '/' },
-// 	{ path: '/projects', component: Projects }
-// ]
+const routes = [
+	{ path: '/about', component: About, alias: '/' },
+	{ path: '/projects', component: Projects }
+]
 
 
-// // Create the router instance and pass the `routes` option
-// const router = new VueRouter({
-// 	routes
-// })
+// Create the router instance and pass the `routes` option
+const router = new VueRouter({
+	routes
+})
 
 
 // Create and mount the root instance.
