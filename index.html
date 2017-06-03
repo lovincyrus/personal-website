@@ -26,8 +26,8 @@
 		<center><img class="headshot" src="assets/img/headshot.jpg"></center>
 		<section id="nav">
 			<ul class="menu-container">
-				<li><router-link to="/about" class="nav active" id="about">about</router-link></li>
-				<li><router-link to="/projects" class="nav" id="about">projects</router-link></li>
+				<li><router-link to="/about" class="nav" :class="{ active: aboutActive }" id="about">about</router-link></li>
+				<li><router-link to="/projects" class="nav" :class="{ active: projectActive }" id="projects">projects</router-link></li>
 				<li><a href="cyrusgoh-resume.pdf" target="_blank" class="nav" id="resume">résumé</a></li>
 			</ul>
 		</section>

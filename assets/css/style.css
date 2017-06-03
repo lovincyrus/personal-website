@@ -236,23 +236,31 @@ div#projects-container {
     background: #c0392b;  /* fallback for old browsers */
     background: -webkit-linear-gradient(to right, #8e44ad, #c0392b);  /* Chrome 10-25, Safari 5.1-6 */
     background: linear-gradient(to right, #8e44ad, #c0392b); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    animation: fadein .5s both;
+    animation-delay: .3s;
 }
 
 .fhda-background {
     background: #000046;  /* fallback for old browsers */
     background: -webkit-linear-gradient(to left, #1CB5E0, #000046);  /* Chrome 10-25, Safari 5.1-6 */
     background: linear-gradient(to left, #1CB5E0, #000046); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    animation: fadein .5s both;
+    animation-delay: .35s;
 }
 
 .gimo-background {
     background: #20002c;  /* fallback for old browsers */
     background: -webkit-linear-gradient(to left, #cbb4d4, #20002c);  /* Chrome 10-25, Safari 5.1-6 */
     background: linear-gradient(to left, #cbb4d4, #20002c); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    animation: fadein .5s both;
+    animation-delay: .4s;
 }
 
 .quotes-background {
     background: url(../img/jump.png);
     background-position: right;
+    animation: fadein .5s both;
+    animation-delay: .45s;
 }
 
 .penguiin-background {
@@ -260,6 +268,8 @@ div#projects-container {
     background-position: right;
     background-size: 100% 100%;
     background-repeat: no-repeat;
+    animation: fadein .5s both;
+    animation-delay: .55s;
 }
 
 .mouseover:hover {

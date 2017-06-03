@@ -84,21 +84,27 @@ const router = new VueRouter({
 // Create and mount the root instance.
 const app = new Vue({
 	router,
+	data: {
+		aboutActive: 1,
+		projectActive: 0
+	},
 	mounted: function() {
-		if (!sessionStorage.getItem("is_loaded")) {
+		if (!sessionStorage.getItem("is_loaded") && (router.currentRoute.path === '/about' || router.currentRoute.path === '/')) {
 			this.sayHello();
 			sessionStorage.setItem("is_loaded", true);
 		}
 
-		$('a[href^="#"]').on('click', function (e) {
-	        e.preventDefault();
-	        $('a').each(function () {
-	            $(this).removeClass('active');
-	        })
-	        $(this).addClass('active');
+		if (router.currentRoute.path === '/projects') {
+			this.aboutActive = 0;
+			this.projectActive = 1;
+		}
+
+		$('a[href^="#"]').on('click', (e) => {
+			this.aboutActive = !this.aboutActive;
+			this.projectActive = !this.projectActive;
 	    });
 
-	    console.image("https://i.imgur.com/hKGenSr.jpg");
+	    // console.image("https://i.imgur.com/hKGenSr.jpg");
 	},
 	methods: {
 		sayHello: function() {
