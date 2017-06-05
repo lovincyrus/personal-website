@@ -1,5 +1,5 @@
 # Redirects from what the browser requests to what we serve
-/#/about       /about        200
-/#/projects    /projects     200
-/about         /about	     200
-/projects      /projects	 200
+/#/about       /about
+/#/projects    /projects
+/about         /about
+/projects      /projects
