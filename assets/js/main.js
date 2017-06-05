@@ -75,7 +75,6 @@ const routes = [
 
 // Create the router instance and pass the `routes` option
 const router = new VueRouter({
-	mode: 'history',
 	routes
 })
 
