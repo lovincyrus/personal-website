@@ -28,44 +28,42 @@ const About = { template: `<div id="main">
 	</div>
 </div>` }
 
-const Projects = { template: `	<div id="projects-container">
-		<a class="link" href="https://github.com/lovincyrus/joyfeed" target="_blank">
-			<div class="container joyfeed-background mouseover">
-				<h1 class="pro-name">joyfeed</h1>
-				<p class="brief">Analyzes human emotions using machine learning and filters negative posts.</p>
-			</div>
-		</a>
+const Projects = { template: ` <div id="projects-container">
+	<a class="link" href="https://github.com/lovincyrus/joyfeed" target="_blank">
+		<div class="container joyfeed-background mouseover" id="hehe">
+			<h1 class="pro-name">joyfeed</h1>
+			<p class="brief">Analyzes human emotions using machine learning and filters negative posts.</p>
+		</div>
+	</a>
 
-		<a class="link" href="https://www.lovincyrus.com/fhda" target="_blank">
-			<div class="container fhda-background mouseover">
-				<h1 class="pro-name">fhda</h1>
-				<p class="brief">Gathers FHDA International Alumni.</p>
-			</div>
-		</a>
+	<a class="link" href="https://www.lovincyrus.com/fhda" target="_blank">
+		<div class="container fhda-background mouseover">
+			<h1 class="pro-name">fhda</h1>
+			<p class="brief">Gathers FHDA International Alumni.</p>
+		</div>
+	</a>
 
-		<a class="link" href="https://github.com/lovincyrus/gimo" target="_blank">
-			<div class="container gimo-background mouseover">
-				<h1 class="pro-name">gimo</h1>
-				<p class="brief">Activity tracker but for GitHub streak.</p>
-			</div>
-		</a>
+	<a class="link" href="https://github.com/lovincyrus/gimo" target="_blank">
+		<div class="container gimo-background mouseover">
+			<h1 class="pro-name">gimo</h1>
+			<p class="brief">Activity tracker but for GitHub streak.</p>
+		</div>
+	</a>
 
-		<a class="link" href="https://github.com/lovincyrus/penguiin" target="_blank">
-			<div class="container penguiin-background mouseover">
-				<h1 class="pro-name">penguiin</h1>
-				<p class="brief">NASA Space Apps Challenge 2017</p>
-			</div>
-		</a>
+	<a class="link" href="https://github.com/lovincyrus/penguiin" target="_blank">
+		<div class="container penguiin-background mouseover">
+			<h1 class="pro-name">penguiin</h1>
+			<p class="brief">NASA Space Apps Challenge 2017</p>
+		</div>
+	</a>
 
-		<a class="link" href="https://github.com/lovincyrus/terminal-quotes" target="_blank">
-			<div class="container quotes-background mouseover">
-				<h1 class="pro-name">terminal quotes</h1>
-				<p class="brief">Display quotes on Terminal.</p>
-			</div>
-		</a>
-	</div>` }
-
-
+	<a class="link" href="https://github.com/lovincyrus/terminal-quotes" target="_blank">
+		<div class="container quotes-background mouseover">
+			<h1 class="pro-name">terminal quotes</h1>
+			<p class="brief">Display quotes on Terminal.</p>
+		</div>
+	</a>
+</div> ` }
 
 
 // Define some routes
@@ -77,6 +75,7 @@ const routes = [
 
 // Create the router instance and pass the `routes` option
 const router = new VueRouter({
+	mode: 'history',
 	routes
 })
 
@@ -103,6 +102,12 @@ const app = new Vue({
 			this.aboutActive = !this.aboutActive;
 			this.projectActive = !this.projectActive;
 	    });
+
+		// $(window).scroll(function() {
+		//    if($(window).scrollTop() + $(window).height() == $(document).height()) {
+		//        $(this).addClass('go-to-top');
+		//    }
+		// });
 
 	    // console.image("https://i.imgur.com/hKGenSr.jpg");
 	},
