@@ -146,6 +146,7 @@ p.description {
     text-align: justify;
     position: absolute;
     top: 61px;
+    left: 22px;
     animation: fadein .5s both;
     animation-delay: .35s;
 }
@@ -312,8 +313,8 @@ p.brief {
     max-width: 550px;
     text-align: left;
     position: absolute;
-    padding-top: 100px;
-    /*margin-top: 63px;*/
+    margin-top: 60px;
+    left: 0;
     animation: fadein .5s both;
     animation-delay: .4s;
 }
