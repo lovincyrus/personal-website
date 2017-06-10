@@ -117,10 +117,10 @@ const app = new Vue({
 			this.projectActive = 1;
 		}
 
-		$('a[href^="#"]').on('click', (e) => {
-			this.aboutActive = !this.aboutActive;
-			this.projectActive = !this.projectActive;
-	    });
+		// $('a[href^="#"]').on('click', (e) => {
+		// 	this.aboutActive = !this.aboutActive;
+		// 	this.projectActive = !this.projectActive;
+	 //    });
 
 		// $(window).scroll(function() {
 		//    if($(window).scrollTop() + $(window).height() == $(document).height()) {
@@ -134,8 +134,6 @@ const app = new Vue({
 		sayHello: function() {
 			Typed.new("#sayHello", {
 				strings: ["Hello. ^100", "I'm glad that you're here. ^100", "No, no, no! ^10", "I'm really happy, pleased, contented, delighted, thrilled, overjoyed, elated, gleeful and thankful that you're here. ^100"]
-				// loop: true,
-				// typeSpeed: 30
 				});
 
 				// hide these lads
@@ -182,3 +180,15 @@ const app = new Vue({
 		}
 	}
 }).$mount('#navbar')
+
+router.beforeEach((to, from, next) => {
+	if (to.path === '/about') {
+		app.aboutActive = 1;
+		app.projectActive = 0;
+	} else if (to.path === '/projects') {
+		app.projectActive = 1;
+		app.aboutActive = 0;
+	}
+
+	next();
+})

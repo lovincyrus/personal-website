@@ -127,7 +127,6 @@ span.typed-cursor {
 h1.hero {
     color: #F7F7F7;
     font-family: Avenir, 'Lato';
-    /* margin-bottom: 260px; */
     width: 200px;
     position: absolute;
     top: 0;
@@ -262,7 +261,7 @@ h1.pro-name {
     color: #fff;
     font-size: 48px;
     margin-top: 50px;
-    margin-left: 15px;
+    margin-left: 10px;
     position: relative;
     animation: fadein .5s both;
     animation-delay: .35s;
@@ -272,7 +271,7 @@ p.brief {
     color: #C7B9CC;
     text-align: left;
     display: block;
-    margin-left: 15px;
+    margin-left: 10px;
     margin-right: auto;
     animation: fadein .5s both;
     animation-delay: .4s;
@@ -325,8 +324,6 @@ p.brief {
     animation: fadein .5s both;
     animation-delay: .50s;
 }
-
-
 
 #mouseover:hover {
     transition: 150ms;
