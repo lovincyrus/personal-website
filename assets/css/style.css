@@ -21,7 +21,7 @@ body {
 }
 
 div#main-container {
-    margin: 50px auto 40px 17vw;
+    margin: 9vh auto 40px 17vw;
     max-width: 600px;
     height: 300px;
     width: 550px;
@@ -168,7 +168,7 @@ code {
     top: 290px;
     right: 31px;
     padding-top: 20px;
-    pointer-events: none;
+    pointer-events: auto;
     animation: fadein .5s both;
     animation-delay: .4s;
 }
@@ -223,22 +223,67 @@ div#projects-container {
     margin: 90px auto 90px;
     max-width: 600px;
     height: 200px;
-    -webkit-backface-visibility: hidden;
-    -webkit-transform-style: preserve-3d;
 }
 
 .link {
     text-decoration: none;
 }
 
+div#mouseover {
+    height: 100%;
+    width: 100%;
+    /*margin-top: 48px;*/
+    padding-bottom: 60px;
+    display: inline-block;
+}
+
 .container {
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -ms-flexbox;
     display: flex;
+    -ms-flex-wrap: wrap;
+    flex-wrap: wrap;
+    -webkit-box-align: stretch;
+    -ms-flex-align: stretch;
+    align-items: stretch;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
     align-items: center;
     border-radius: 3px;
     height: 100%;
     width: 100%;
-    margin-top: 3em;
-    margin-bottom: 3em;
+
+    margin-bottom: 48px;
+    position: relative;
+}
+
+h1.pro-name {
+    color: #fff;
+    font-size: 48px;
+    margin-top: 50px;
+    margin-left: 15px;
+    position: relative;
+    animation: fadein .5s both;
+    animation-delay: .35s;
+}
+
+p.brief {
+    color: #C7B9CC;
+    text-align: left;
+    display: block;
+    margin-left: 15px;
+    margin-right: auto;
+    animation: fadein .5s both;
+    animation-delay: .4s;
+}
+
+.flex {
+    display: -webkit-flex;
+    display: flex;
+    position: absolute;
+    margin-top: -118px;
+    max-width: 570px;
 }
 
 .joyfeed-background {
@@ -250,9 +295,9 @@ div#projects-container {
 }
 
 .fhda-background {
-    background: #000046;  /* fallback for old browsers */
-    background: -webkit-linear-gradient(to left, #1CB5E0, #000046);  /* Chrome 10-25, Safari 5.1-6 */
-    background: linear-gradient(to left, #1CB5E0, #000046); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    background: #003756;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to left, #f68e35, #003756);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to left, #f68e35, #003756); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
     animation: fadein .5s both;
     animation-delay: .35s;
 }
@@ -265,62 +310,31 @@ div#projects-container {
     animation-delay: .4s;
 }
 
-.quotes-background {
-    background: url(../img/jump.png);
-    background-position: right;
-    animation: fadein .5s both;
-    animation-delay: .45s;
-}
-
 .penguiin-background {
     background: url(../img/penguiin.gif);
     background-position: right;
     background-size: 100% 100%;
     background-repeat: no-repeat;
     animation: fadein .5s both;
-    animation-delay: .55s;
+    animation-delay: .45s;
 }
 
-.mouseover:hover {
+.quotes-background {
+    background: url(../img/jump.png);
+    background-position: right;
+    animation: fadein .5s both;
+    animation-delay: .50s;
+}
+
+
+
+#mouseover:hover {
     transition: 150ms;
     -webkit-transform: scale(1.05);
     -moz-transform: scale(1.05);
     -ms-transform: scale(1.05);
     -o-transform: scale(1.05);
     transform: scale(1.05);
-    -webkit-box-shadow: 0 0 30px rgba(0, 0, 0, .14);
-    -moz-box-shadow: 0 0 30px rgba(0, 0, 0, .14);
-    -ms-box-shadow: 0 0 30px rgba(0, 0, 0, .14);
-    -o-box-shadow: 0 0 30px rgba(0, 0, 0, .14);
-    box-shadow: 0 0 30px rgba(0, 0, 0, .14);
-}
-
-.mouseover:hover h1.pro-name,
-.mouseover:hover p.brief {
-    color: #151719;
-}
-
-h1.pro-name {
-    margin-top: 50px;
-    margin-left: 10px;
-    color: #fff;
-    font-size: 50px;
-    position: relative;
-    z-index: 1;
-    animation: fadein .5s both;
-    animation-delay: .35s;
-}
-
-p.brief {
-    margin-left: 10px;
-    color: #C7B9CC;
-    max-width: 550px;
-    text-align: left;
-    position: absolute;
-    margin-top: 60px;
-    left: 0;
-    animation: fadein .5s both;
-    animation-delay: .4s;
 }
 
 .right-arrow {
@@ -329,15 +343,6 @@ p.brief {
     position: static;
     animation: fadein .5s both;
     animation-delay: .45s;
-}
-
-p.discover {
-    color: #f9ed8a;
-    opacity: 0.85;
-    font-size: 16px;
-    padding-left: 20px;
-    animation: fadein .5s both;
-    animation-delay: .4s;
 }
 
 /*#top {
@@ -523,7 +528,7 @@ p.discover {
         top: 310px;
         right: 0px;
         padding-top: 25vh;
-        pointer-events: none;
+        pointer-events: auto;
         animation: fadein .5s both;
         animation-delay: .4s;
     }
@@ -533,5 +538,15 @@ p.discover {
         right: 0;
         top: 280px;
         margin-right: 160px;
+    }
+
+    h1.pro-name {
+        color: #fff;
+        font-size: 45px;
+        margin-top: 50px;
+        margin-left: 15px;
+        position: relative;
+        animation: fadein .5s both;
+        animation-delay: .35s;
     }
 }

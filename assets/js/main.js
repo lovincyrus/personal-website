@@ -30,37 +30,57 @@ const About = { template: `<div id="main">
 
 const Projects = { template: ` <div id="projects-container">
 	<a class="link" href="https://github.com/lovincyrus/joyfeed" target="_blank">
-		<div class="container joyfeed-background mouseover" id="hehe">
-			<h1 class="pro-name">joyfeed</h1>
-			<p class="brief">Analyzes human emotions using machine learning and filters negative posts.</p>
+		<div id="mouseover">
+			<div class="container joyfeed-background">
+				<h1 class="pro-name">joyfeed</h1>
+			</div>
+			<div class="flex">
+				<p class="brief">Analyzes human emotions using machine learning and filters negative posts.</p>
+			</div>
 		</div>
 	</a>
 
 	<a class="link" href="https://www.lovincyrus.com/fhda" target="_blank">
-		<div class="container fhda-background mouseover">
-			<h1 class="pro-name">fhda</h1>
-			<p class="brief">Gathers FHDA International Alumni.</p>
+		<div id="mouseover">
+			<div class="container fhda-background">
+				<h1 class="pro-name">fhda</h1>
+			</div>
+			<div class="flex">
+				<p class="brief">A platform for Foothill-De Anza International Alumni.</p>
+			</div>
 		</div>
 	</a>
 
 	<a class="link" href="https://github.com/lovincyrus/gimo" target="_blank">
-		<div class="container gimo-background mouseover">
-			<h1 class="pro-name">gimo</h1>
-			<p class="brief">Activity tracker but for GitHub streak.</p>
+		<div id="mouseover">	
+			<div class="container gimo-background">
+				<h1 class="pro-name">gimo</h1>
+			</div>
+			<div class="flex">
+				<p class="brief">Activity tracker but for GitHub streak.</p>
+			</div>
 		</div>
 	</a>
 
 	<a class="link" href="https://github.com/lovincyrus/penguiin" target="_blank">
-		<div class="container penguiin-background mouseover">
-			<h1 class="pro-name">penguiin</h1>
-			<p class="brief">NASA Space Apps Challenge 2017</p>
+		<div id="mouseover">
+			<div class="container penguiin-background">
+				<h1 class="pro-name">penguiin</h1>
+			</div>
+			<div class="flex">
+				<p class="brief">NASA Space Apps Challenge 2017</p>
+			</div>
 		</div>
 	</a>
 
 	<a class="link" href="https://github.com/lovincyrus/terminal-quotes" target="_blank">
-		<div class="container quotes-background mouseover">
-			<h1 class="pro-name">terminal quotes</h1>
-			<p class="brief">Display quotes on Terminal.</p>
+		<div id="mouseover">	
+			<div class="container quotes-background">
+				<h1 class="pro-name">terminal quotes</h1>
+			</div>
+			<div class="flex">
+				<p class="brief">Display quotes on Terminal.</p>
+			</div>
 		</div>
 	</a>
 </div> ` }
