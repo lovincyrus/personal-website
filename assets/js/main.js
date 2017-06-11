@@ -40,7 +40,7 @@ const Projects = { template: ` <div id="projects-container">
 		</div>
 	</a>
 
-	<a class="link" href="https://www.lovincyrus.com/fhda" target="_blank">
+	<a class="link" href="https://lovincyrus.github.io/fhda/" target="_blank">
 		<div id="mouseover">
 			<div class="container fhda-background">
 				<h1 class="pro-name">fhda</h1>
@@ -117,18 +117,13 @@ const app = new Vue({
 			this.projectActive = 1;
 		}
 
-		// $('a[href^="#"]').on('click', (e) => {
-		// 	this.aboutActive = !this.aboutActive;
-		// 	this.projectActive = !this.projectActive;
-	 //    });
-
 		// $(window).scroll(function() {
 		//    if($(window).scrollTop() + $(window).height() == $(document).height()) {
 		//        $(this).addClass('go-to-top');
 		//    }
 		// });
 
-	    // console.image("https://i.imgur.com/hKGenSr.jpg");
+	    console.image("https://i.imgur.com/hKGenSr.jpg");
 	},
 	methods: {
 		sayHello: function() {

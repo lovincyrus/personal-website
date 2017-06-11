@@ -20,6 +20,12 @@ body {
     }
 }
 
+/*
+div#main {
+    display: -webkit-flex;
+    display: flex;
+}*/
+
 div#main-container {
     margin: 9vh auto 40px 17vw;
     max-width: 600px;
@@ -541,7 +547,7 @@ p.brief {
         color: #fff;
         font-size: 45px;
         margin-top: 50px;
-        margin-left: 15px;
+        margin-left: 10px;
         position: relative;
         animation: fadein .5s both;
         animation-delay: .35s;
