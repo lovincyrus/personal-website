@@ -20,15 +20,13 @@ body {
     }
 }
 
-/*
 div#main {
     display: -webkit-flex;
     display: flex;
-}*/
+}
 
 div#main-container {
     margin: 9vh auto 40px 17vw;
-    max-width: 600px;
     height: 300px;
     width: 550px;
 }
@@ -73,6 +71,7 @@ section#nav {
     max-width: 363px;
     text-align: center;
     display: flex;
+    display: -webkit-flex;
     align-items: center;
     margin-left: auto;
     margin-right: auto;
@@ -123,7 +122,9 @@ a.nav.active {
     color: #f7f7f7;
     opacity: 0.75;
     margin-top: -18vh;
-    /*margin-top: calc(100%-20vh);*/
+    /*display: flex;*/
+    flex-direction: column;
+    justify-content: center;
 }
 
 span.typed-cursor {
@@ -165,14 +166,28 @@ a.here:hover {
     opacity: 0.75;
 }
 
-code {
+/*code {
     color: #007AFF;
     max-width: 500px;
     text-align: justify;
     position: absolute;
     top: 290px;
     right: 31px;
+    padding-left: 20px;
     padding-top: 20px;
+    pointer-events: auto;
+    animation: fadein .5s both;
+    animation-delay: .4s;
+}*/
+
+code.note {
+    color: #007AFF;
+    line-height: 17px;
+    font-family: monospace;
+    font-size: 13px;
+    max-width: 500px;
+    text-align: justify;
+    position: absolute;
     pointer-events: auto;
     animation: fadein .5s both;
     animation-delay: .4s;
@@ -182,7 +197,7 @@ code {
     position: absolute;
     right: 0;
     bottom: -16px;
-    margin-right: 170px;
+    margin-right: 265px;
 }
 
 ul.link {
@@ -237,7 +252,6 @@ div#projects-container {
 div#mouseover {
     height: 100%;
     width: 100%;
-    /*margin-top: 48px;*/
     padding-bottom: 60px;
     display: inline-block;
 }
@@ -258,7 +272,6 @@ div#mouseover {
     border-radius: 3px;
     height: 100%;
     width: 100%;
-
     margin-bottom: 48px;
     position: relative;
 }
@@ -278,7 +291,8 @@ p.brief {
     text-align: left;
     display: block;
     margin-left: 10px;
-    margin-right: auto;
+    margin-right: 10px;
+    padding-right: 5px;
     animation: fadein .5s both;
     animation-delay: .4s;
 }
@@ -372,18 +386,16 @@ p.brief {
         margin-top: 8vh;
     }
 
-    img.headshot {
+/*    img.headshot {
         margin-top: 10vh;
-        border: 0;
         width: 100px;
-        z-index: -99999999;
         position: relative;
         border-radius: 5px;
         box-shadow: 10px 10px 5px rgba(0,0,0,.08);
         animation: fadein .5s both;
         animation-delay: .2s;
         image-rendering: optimizeQuality;
-    }
+    }*/
 
     div#main-container {
         margin: 80px auto 40px 26vw;
@@ -411,6 +423,8 @@ p.brief {
     }
 }
 
+
+/* 1280 */
 @media screen and (min-width: 1280px) {
     #sayHello {
         font-size: 20px;
@@ -421,9 +435,7 @@ p.brief {
 
     img.headshot {
         margin-top: 10vh;
-        border: 0;
         width: 100px;
-        z-index: -99999999;
         position: relative;
         border-radius: 5px;
         box-shadow: 10px 10px 5px rgba(0,0,0,.08);
@@ -434,13 +446,23 @@ p.brief {
 }
 
 
-@media screen and (min-width: 401px) and (max-width: 1120px) {
+@media screen and (min-width: 401px) and (max-width: 1250px) {
+    div#main-container {
+        max-width: 550px;
+        display: block;
+        justify-content: center;
+        align-items: center;
+        margin: 70px auto 90px auto;
+        padding-left: 10px;
+        padding-right: 25px;
+        max-width: 600px;
+        height: 200px;
+    }
+
     .contact {
+        max-width: 500px;
         position: absolute;
-        right: 0;
-        bottom: -16px;
-        margin-right: 170px;
-        display: none;
+        top: 560px;
     }
 }
 
@@ -458,26 +480,27 @@ p.brief {
         max-width: 385px;
         text-align: center;
         display: flex;
+        display: -webkit-flex;
         align-items: center;
         margin-left: auto;
         margin-right: auto;
     }
 
     div#main-container {
-        margin: 80px auto 40px 11vw;
+        margin: 60px 11vw 40px 11vw;
         max-width: 600px;
         height: 300px;
         width: 285px;
     }
 
     ul.menu-container {
-        right: 25px;
         font-family: Avenir, 'Lato';
         font-weight: 500;
         display: flex;
         list-style-type: none;
         margin-left: auto;
         margin-right: auto;
+        right: 25px;
         white-space: nowrap;
         text-align: center;
         justify-content: center;
@@ -522,25 +545,12 @@ p.brief {
         animation-delay: .35s;
     }
 
-    code {
-        color: #007AFF;
-        max-width: 500px;
-        text-align: justify;
-        line-height: 17px;
-        position: absolute;
-        top: 310px;
-        right: 0px;
-        padding-top: 25vh;
-        pointer-events: auto;
-        animation: fadein .5s both;
-        animation-delay: .4s;
-    }
-
     .contact {
         position: absolute;
         right: 0;
-        top: 280px;
-        margin-right: 160px;
+        top: 560px;
+        margin-right: 167px;
+/*        display: none;*/
     }
 
     h1.pro-name {
