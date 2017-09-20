@@ -345,6 +345,14 @@ p.brief {
     animation-delay: .50s;
 }
 
+.ping-stocks-background {
+    background: url(../img/stocks.gif);
+    background-position: right center;
+    background-size: 50% 100%;
+    background-repeat: no-repeat;
+    animation-delay: .50s;
+}
+
 #mouseover:hover {
     transition: 150ms;
     -webkit-transform: scale(1.05);

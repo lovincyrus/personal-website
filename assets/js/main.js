@@ -83,6 +83,17 @@ const Projects = { template: ` <div id="projects-container">
 			</div>
 		</div>
 	</a>
+
+	<a class="link" href="https://github.com/lovincyrus/ping-stocks" target="_blank">
+		<div id="mouseover">	
+			<div class="container ping-stocks-background">
+				<h1 class="pro-name">ping-stocks</h1>
+			</div>
+			<div class="flex">
+				<p class="brief">Trade stock prices and send emails.</p>
+			</div>
+		</div>
+	</a>
 </div> ` }
 
 
