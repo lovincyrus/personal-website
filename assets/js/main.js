@@ -94,6 +94,17 @@ const Projects = { template: ` <div id="projects-container">
 			</div>
 		</div>
 	</a>
+
+	<a class="link" href="trustwalletapp.com" target="_blank">
+		<div id="mouseover">	
+			<div class="container trust-background">
+				<h1 class="pro-name">Trust Wallet</h1>
+			</div>
+			<div class="flex">
+				<p class="brief">An Open Source Ethereum Wallet with ERC20 tokens support.</p>
+			</div>
+		</div>
+	</a>
 </div> ` }
 
 
