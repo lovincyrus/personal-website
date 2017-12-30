@@ -95,7 +95,7 @@ const Projects = { template: ` <div id="projects-container">
 		</div>
 	</a>
 
-	<a class="link" href="trustwalletapp.com" target="_blank">
+	<a class="link" href="https://trustwalletapp.com/" target="_blank">
 		<div id="mouseover">	
 			<div class="container trust-background">
 				<h1 class="pro-name">Trust Wallet</h1>
