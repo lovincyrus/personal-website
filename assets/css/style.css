@@ -166,28 +166,12 @@ a.here:hover {
     opacity: 0.75;
 }
 
-/*code {
-    color: #007AFF;
-    max-width: 500px;
-    text-align: justify;
-    position: absolute;
-    top: 290px;
-    right: 31px;
-    padding-left: 20px;
-    padding-top: 20px;
-    pointer-events: auto;
-    animation: fadein .5s both;
-    animation-delay: .4s;
-}*/
-
 code.note {
-    color: #007AFF;
     line-height: 17px;
     font-family: monospace;
     font-size: 13px;
     max-width: 500px;
     text-align: justify;
-    position: absolute;
     pointer-events: auto;
     animation: fadein .5s both;
     animation-delay: .4s;
@@ -402,19 +386,8 @@ p.brief {
         margin-top: 8vh;
     }
 
-/*    img.headshot {
-        margin-top: 10vh;
-        width: 100px;
-        position: relative;
-        border-radius: 5px;
-        box-shadow: 10px 10px 5px rgba(0,0,0,.08);
-        animation: fadein .5s both;
-        animation-delay: .2s;
-        image-rendering: optimizeQuality;
-    }*/
-
     div#main-container {
-        margin: 80px auto 40px 26vw;
+        margin: 80px auto 40px 31vw;
         max-width: 600px;
         height: 300px;
         width: 550px;
@@ -566,7 +539,6 @@ p.brief {
         right: 0;
         top: 560px;
         margin-right: 167px;
-/*        display: none;*/
     }
 
     h1.pro-name {
