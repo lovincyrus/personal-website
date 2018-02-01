@@ -7,12 +7,13 @@ const About = { template: `<div id="main">
 				I am a web developer, an avid Python enthusiast and a cognitive science student at UC Davis. I love to learn by doing things, which is why I am <em>always</em> in progress. I firmly believe that it is not what technology stack you use that make the product great, it is how you implement it. While technology frameworks may not last, but photographs definitely will — you may check out my <a href="https://vsco.co/lovincyrus" target="blank_" class="here"><strong>photography work</strong></a>.
 				<br><br>My utmost passion is to connect <em>human</em> and <em>technology</em>, and to build <em>user-centric</em> products. 
 				<br><br><code class="note">[!] Currently a frontend web dev at <a href="https://trustwalletapp.com/" target="blank_" class="here"><strong>Trust Wallet</strong></a></code>
-				<br><code class="note">[0] Available for <strong>Summer Internship 2018</strong> 🚀</code>
-				<br><code class="note">[1] twitter<a href="https://twitter.com/cyrsgh" target="blank_" class="here"><strong>/cyrsgh</strong></a></code>
-				<br><code class="note">[2] github<a href="https://github.com/lovincyrus" target="blank_" class="here"><strong>/lovincyrus</a></code>
-				<br><code class="note">[3] linkedin<a href="https://www.linkedin.com/in/cyrusgoh" target="blank_" class="here"><strong>/in/cyrusgoh</strong></a></code>
-				<br><code class="note">[4] Talk to me: <a href="mailto:hello@lovincyrus.com" target="blank_" class="here"><strong>hello@lovincyrus.com</strong></a></code>
-				<br><code class="note">[5] Buy me a <a href="./ethereum-address.txt" target="blank_" class="here">☕️</a></code>
+				<br><code class="note">[!] Available for <strong>Summer Internship 2018</strong> 🚀 </code>
+				<br><code class="note">[?] At <strong>Davis</strong>, <strong>California</strong> ☀️ </code>
+				<br><code class="note">[0] twitter<a href="https://twitter.com/cyrsgh" target="blank_" class="here"><strong>/cyrsgh</strong></a></code>
+				<br><code class="note">[1] github<a href="https://github.com/lovincyrus" target="blank_" class="here"><strong>/lovincyrus</a></code>
+				<br><code class="note">[2] linkedin<a href="https://www.linkedin.com/in/cyrusgoh" target="blank_" class="here"><strong>/in/cyrusgoh</strong></a></code>
+				<br><code class="note">[3] Talk to me: <a href="mailto:hello@lovincyrus.com" target="blank_" class="here"><strong>hello@lovincyrus.com</strong></a></code>
+				<br><code class="note">[4] Let's exchange ideas over <a href="./ethereum-address.txt" class="here">☕️ </a></code>
 				<br><br><br>
 				</p>
 		</div>
