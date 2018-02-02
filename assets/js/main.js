@@ -12,7 +12,7 @@ const About = { template: `<div id="main">
 				<br><code class="note">[0] twitter<a href="https://twitter.com/cyrsgh" target="blank_" class="here"><strong>/cyrsgh</strong></a></code>
 				<br><code class="note">[1] github<a href="https://github.com/lovincyrus" target="blank_" class="here"><strong>/lovincyrus</a></code>
 				<br><code class="note">[2] linkedin<a href="https://www.linkedin.com/in/cyrusgoh" target="blank_" class="here"><strong>/in/cyrusgoh</strong></a></code>
-				<br><code class="note">[3] Talk to me: <a href="mailto:hello@lovincyrus.com" target="blank_" class="here"><strong>hello@lovincyrus.com</strong></a></code>
+				<br><code class="note">[3] 🤝 <a href="mailto:hello@lovincyrus.com" target="blank_" class="here"><strong>hello@lovincyrus.com</strong></a></code>
 				<br><code class="note">[*] Let's exchange ideas over <a href="./ethereum-address.txt" class="here">☕️ </a></code>
 				<br><br><br>
 				</p>
