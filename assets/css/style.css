@@ -425,7 +425,7 @@ p.brief {
 }
 
 
-@media screen and (min-width: 401px) and (max-width: 1250px) {
+@media screen and (min-width: 401px) and (max-width: 1440px) {
     div#main-container {
         max-width: 550px;
         display: block;
