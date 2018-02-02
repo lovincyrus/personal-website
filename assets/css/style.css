@@ -362,16 +362,6 @@ p.brief {
     animation-delay: .45s;
 }
 
-/*#top {
-    height: 50px;
-    width: 50px;
-    position: relative;
-    margin-left: auto;
-    margin-right: auto;
-    padding-top: 90px;
-}
-*/
-
 
 
 
@@ -387,7 +377,7 @@ p.brief {
     }
 
     div#main-container {
-        margin: 80px auto 40px 31vw;
+        margin: 60px auto 40px 31vw;
         max-width: 600px;
         height: 300px;
         width: 550px;

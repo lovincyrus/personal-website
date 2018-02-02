@@ -131,12 +131,6 @@ const app = new Vue({
 			this.projectActive = 1;
 		}
 
-		// $(window).scroll(function() {
-		//    if($(window).scrollTop() + $(window).height() == $(document).height()) {
-		//        $(this).addClass('go-to-top');
-		//    }
-		// });
-
 	    console.image("https://i.imgur.com/hKGenSr.jpg");
 	},
 	methods: {
