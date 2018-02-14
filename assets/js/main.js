@@ -6,7 +6,7 @@ const About = { template: `<div id="main">
 			<p class="description">
 				I am a web developer, an avid Python enthusiast and a cognitive science student at UC Davis. I love to learn by doing things, which is why I am <em>always</em> in progress. I firmly believe that it is not what technology stack you use that make the product great, it is how you implement it. While technology frameworks may not last, but photographs definitely will — you may check out my <a href="https://vsco.co/lovincyrus" target="blank_" class="here"><strong>photography work</strong></a>.
 				<br><br>My utmost passion is to connect <em>human</em> and <em>technology</em>, and to build <em>user-centric</em> products. 
-				<br><br><code class="note">[!] Currently a frontend web dev at <a href="https://trustwalletapp.com/" target="blank_" class="here"><strong>Trust Wallet</strong></a></code>
+				<br><br><code class="note">[!] Currently a Lead Frontend Developer at <a href="https://trustwalletapp.com/" target="blank_" class="here"><strong>Trust Wallet</strong></a></code>
 				<br><code class="note">[!] Available for <strong>Summer Internship 2018</strong> 🚀 </code>
 				<br><code class="note">[@] At <strong>Davis</strong>, <strong>California</strong> ☀️ </code>
 				<br><code class="note">[0] twitter <a href="https://twitter.com/cyrsgh" target="blank_" class="here"><strong>/cyrsgh</strong></a></code>
