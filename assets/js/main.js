@@ -4,11 +4,10 @@ const About = { template: `<div id="main">
 		<div class="about">
 			<h1 class="hero">Cyrus Goh</h1>
 			<p class="description">
-				I am a web developer, an avid Python enthusiast and a cognitive science student at UC Davis. I love to learn by doing things, which is why I am <em>always</em> in progress. I firmly believe that it is not what technology stack you use that make the product great, it is how you implement it. While technology frameworks may not last, but photographs definitely will — you may check out my <a href="https://vsco.co/lovincyrus" target="blank_" class="here"><strong>photography work</strong></a>.
+				I am a web developer, an avid JS enthusiast and a cognitive science student at UC Davis. I love to learn by doing things, which is why I am <em>always</em> in progress. I firmly believe that it is not what technology stack you use that make the product great, it is how you implement it. While technology frameworks may not last, but photographs definitely will — you may check out my <a href="https://vsco.co/lovincyrus" target="blank_" class="here"><strong>photography work</strong></a>.
 				<br><br>My utmost passion is to connect <em>human</em> and <em>technology</em>, and to build <em>user-centric</em> products. 
-				<br><br><code class="note">[!] Currently a Lead Frontend Developer at <a href="https://trustwalletapp.com/" target="blank_" class="here"><strong>Trust Wallet</strong></a></code>
-				<br><code class="note">[!] Building <a href="http://aggiehackers.com/" target="blank_" class="here"><strong>Aggie Hackers</strong></a> on the side 🐮 </code>
-				<br><code class="note">[!] Available for <strong>Summer Internship 2018</strong> 🚀 </code>
+				<br><br><code class="note">[!] Currently exploring the startup ecosystem in <a href="https://www.google.com/maps/place/Kuala+Lumpur,+Federal+Territory+of+Kuala+Lumpur/@3.1385036,101.616949,12z/data=!3m1!4b1!4m5!3m4!1s0x31cc362abd08e7d3:0x232e1ff540d86c99!8m2!3d3.1569486!4d101.712303" target="blank_" class="here"><strong>Kuala Lumpur</strong></a></code>
+				<br><code class="note">[+] Enjoy answering deep questions on <a href="https://www.deepthoughtapp.com/users/68/" target="blank_" class="here"><strong>Deep Thought</strong></a></code>
 				<br><code class="note">[@] At <strong>Davis</strong>, <strong>California</strong> ☀️ </code>
 				<br><code class="note">[0] twitter <a href="https://twitter.com/cyrsgh" target="blank_" class="here"><strong>/cyrsgh</strong></a></code>
 				<br><code class="note">[1] github <a href="https://github.com/lovincyrus" target="blank_" class="here"><strong>/lovincyrus</a></code>
