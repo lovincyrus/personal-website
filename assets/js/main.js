@@ -8,6 +8,7 @@ const About = { template: `<div id="main">
 				<br><br>My utmost passion is to connect <em>human</em> and <em>technology</em>, and to build <em>user-centric</em> products. 
 				<br><br><code class="note">[!] Currently exploring the startup ecosystem in <a href="https://www.google.com/maps/place/Kuala+Lumpur,+Federal+Territory+of+Kuala+Lumpur/@3.1385036,101.616949,12z" target="blank_" class="here"><strong>Kuala Lumpur</strong></a></code>
 				<br><code class="note">[+] Enjoy answering deep questions on <a href="https://www.deepthoughtapp.com/users/68/" target="blank_" class="here"><strong>Deep Thought</strong></a></code>
+				<br><code class="note">[+] Open to <a href="cyrusgoh-resume.pdf" target="_blank" class="here"><strong>remote opportunities</strong></a></code>
 				<br><code class="note">[0] twitter <a href="https://twitter.com/cyrsgh" target="blank_" class="here"><strong>/cyrsgh</strong></a></code>
 				<br><code class="note">[1] github <a href="https://github.com/lovincyrus" target="blank_" class="here"><strong>/lovincyrus</a></code>
 				<br><code class="note">[2] devpost <a href="https://devpost.com/lovincyrus" target="blank_" class="here"><strong>/lovincyrus</a></code>
