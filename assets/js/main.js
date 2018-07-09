@@ -88,13 +88,13 @@ const Projects = { template: ` <div id="projects-container">
 		</div>
 	</a>
 
-	<a class="link" href="https://trustwalletapp.com/" target="_blank">
+	<a class="link" href="https://dapps.trustwalletapp.com/" target="_blank">
 		<div id="mouseover">	
 			<div class="container trust-background">
-				<h1 class="pro-name">Trust Wallet</h1>
+				<h1 class="pro-name">DApps Browser</h1>
 			</div>
 			<div class="flex">
-				<p class="brief">An Open Source Ethereum Wallet with ERC20 tokens support.</p>
+				<p class="brief">An Open Source Ethereum Wallet with ERC20 and ERC223 tokens support.</p>
 			</div>
 		</div>
 	</a>
