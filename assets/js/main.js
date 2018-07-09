@@ -22,6 +22,18 @@ const About = { template: `<div id="main">
 </div>` }
 
 const Projects = { template: ` <div id="projects-container">
+
+	<a class="link" href="https://dapps.trustwalletapp.com/" target="_blank">
+	<div id="mouseover">	
+		<div class="container trust-background">
+			<h1 class="pro-name">DApps Browser</h1>
+		</div>
+		<div class="flex">
+			<p class="brief">A browser that interacts with decentralized applications on Ethereum blockchain.</p>
+		</div>
+	</div>
+	</a>
+
 	<a class="link" href="https://github.com/lovincyrus/joyfeed" target="_blank">
 		<div id="mouseover">
 			<div class="container joyfeed-background">
@@ -29,17 +41,6 @@ const Projects = { template: ` <div id="projects-container">
 			</div>
 			<div class="flex">
 				<p class="brief">Analyzes human emotions using machine learning and filters negative posts.</p>
-			</div>
-		</div>
-	</a>
-
-	<a class="link" href="https://lovincyrus.github.io/fhda/" target="_blank">
-		<div id="mouseover">
-			<div class="container fhda-background">
-				<h1 class="pro-name">fhda</h1>
-			</div>
-			<div class="flex">
-				<p class="brief">A platform for Foothill-De Anza International Alumni.</p>
 			</div>
 		</div>
 	</a>
@@ -88,16 +89,6 @@ const Projects = { template: ` <div id="projects-container">
 		</div>
 	</a>
 
-	<a class="link" href="https://dapps.trustwalletapp.com/" target="_blank">
-		<div id="mouseover">	
-			<div class="container trust-background">
-				<h1 class="pro-name">DApps Browser</h1>
-			</div>
-			<div class="flex">
-				<p class="brief">An Open Source Ethereum Wallet with ERC20 and ERC223 tokens support.</p>
-			</div>
-		</div>
-	</a>
 </div> ` }
 
 
