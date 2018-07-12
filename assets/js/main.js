@@ -6,9 +6,8 @@ const About = { template: `<div id="main">
 			<p class="description">
 				I am a web developer, an avid JS enthusiast and a cognitive science student at UC Davis. I love to learn by doing things, which is why I am <em>always</em> in progress. I firmly believe that it is not what technology stack you use that make the product great, it is how you implement it. While technology frameworks may not last, but photographs definitely will — you may check out my <a href="https://vsco.co/lovincyrus" target="blank_" class="here"><strong>photography work</strong></a>.
 				<br><br>My utmost passion is to connect <em>human</em> and <em>technology</em>, and to build <em>user-centric</em> products. 
-				<br><br><code class="note">[@] Currently exploring the startup ecosystem in <a href="https://www.google.com/maps/place/Kuala+Lumpur,+Federal+Territory+of+Kuala+Lumpur/@3.1385036,101.616949,12z" target="blank_" class="here"><strong>Kuala Lumpur</strong></a></code>
+				<br><br><code class="note">[!] Currently breaking things at <a href="http://myfave.com/" target="blank_" class="here"><strong>Fave</strong></a></code>
 				<br><code class="note">[+] Enjoy answering deep questions on <a href="https://www.deepthoughtapp.com/users/68/" target="blank_" class="here"><strong>Deep Thought</strong></a></code>
-				<br><code class="note">[+] Open to <a href="cyrusgoh-resume.pdf" target="_blank" class="here"><strong>remote opportunities</strong></a> 🌟</code>
 				<br><code class="note">[0] twitter <a href="https://twitter.com/cyrsgh" target="blank_" class="here"><strong>/cyrsgh</strong></a></code>
 				<br><code class="note">[1] github <a href="https://github.com/lovincyrus" target="blank_" class="here"><strong>/lovincyrus</a></code>
 				<br><code class="note">[2] devpost <a href="https://devpost.com/lovincyrus" target="blank_" class="here"><strong>/lovincyrus</a></code>
