@@ -7,6 +7,7 @@ const About = { template: `<div id="main">
 			I am a software engineer, app developer, JS enthusiast and a cognitive science student at UC Davis. I love to learn by doing things, which is why I am <em>always</em> in progress. I firmly believe that it is not what technology stack you use that make the product great, it is how you implement it. While technology frameworks may not last, but photographs definitely will — you may check out my <a href="https://vsco.co/lovincyrus" target="blank_" class="here"><strong>photography work</strong></a>.
 				<br><br>My utmost passion is to connect <em>human</em> and <em>technology</em>, and to build <em>user-centric</em> products. 
 				<br><br><code class="note">[!] Currently breaking things at <a href="http://myfave.com/" target="blank_" class="here"><strong>Fave</strong></a></code>
+				<br><code class="note">[-] Previously at <a href="https://trustwalletapp.com/" target="blank_" class="here"><strong>Trust Wallet</strong></a></code>
 				<br><code class="note">[+] Enjoy answering deep questions on <a href="https://www.deepthoughtapp.com/users/68/" target="blank_" class="here"><strong>Deep Thought</strong></a></code>
 				<br><code class="note">[0] twitter <a href="https://twitter.com/cyrsgh" target="blank_" class="here"><strong>/cyrsgh</strong></a></code>
 				<br><code class="note">[1] github <a href="https://github.com/lovincyrus" target="blank_" class="here"><strong>/lovincyrus</a></code>
@@ -122,7 +123,7 @@ const app = new Vue({
 			this.projectActive = 1;
 		}
 
-	    console.image("https://i.imgur.com/hKGenSr.jpg");
+		console.log("Contact: hello@lovincyrus.com")
 	},
 	methods: {
 		sayHello: function() {
