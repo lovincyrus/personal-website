@@ -9,7 +9,7 @@ const About = { template: `<div id="main">
 			I am a software engineer, app developer, JS enthusiast and a cognitive science student at UC Davis. I love to learn by doing things, which is why I am <em>always</em> in progress. I firmly believe that it is not what technology stack you use that make the product great, it is how you implement it. While technology frameworks may not last, but photographs definitely will — you may check out my <a href="https://vsco.co/lovincyrus" target="blank_" class="here"><strong>photography work</strong></a>.
 				<br><br>My utmost passion is to connect <em>human</em> and <em>technology</em>, and to build <em>user-centric</em> products. 
 				<br><br><code class="note">[!] Meet me at <a href="https://ethsanfrancisco.com" target="blank_" class="here"><strong>ETHSanFrancisco</strong></a></code>
-				<br><code class="note">[-] Previously at <a href="https://trustwalletapp.com/" target="blank_" class="here"><strong>Trust Wallet</strong></a>, <a href="http://myfave.com/" target="blank_" class="here"><strong>Fave</strong></a></code>
+				<br><code class="note">[-] Previously at <a href="https://trustwalletapp.com/" target="blank_" class="here"><strong>Trust Wallet</strong></a>, <a href="https://myfave.com/" target="blank_" class="here"><strong>Fave</strong></a></code>
 				<br><code class="note">[+] Enjoy answering deep questions on <a href="https://www.deepthoughtapp.com/users/68/" target="blank_" class="here"><strong>Deep Thought</strong></a></code>
 				<br><code class="note">[0] twitter <a href="https://twitter.com/cyrsgh" target="blank_" class="here"><strong>/cyrsgh</strong></a></code>
 				<br><code class="note">[1] github <a href="https://github.com/lovincyrus" target="blank_" class="here"><strong>/lovincyrus</a></code>
@@ -25,13 +25,24 @@ const About = { template: `<div id="main">
 
 const Projects = { template: ` <div id="projects-container">
 
+	<a class="link" href="https://people.netlify.com" target="_blank">
+	<div id="mouseover">	
+		<div class="container people-background">
+			<h1 class="pro-name">People</h1>
+		</div>
+		<div class="flex">
+			<p class="brief">Discover brothers in the professional world</p>
+		</div>
+	</div>
+	</a>
+
 	<a class="link" href="https://dapps.trustwalletapp.com/" target="_blank">
 	<div id="mouseover">	
 		<div class="container trust-background">
 			<h1 class="pro-name">DApps Browser</h1>
 		</div>
 		<div class="flex">
-			<p class="brief">A browser that interacts with decentralized applications on Ethereum blockchain.</p>
+			<p class="brief">A browser that interacts with decentralized applications on Ethereum blockchain</p>
 		</div>
 	</div>
 	</a>
@@ -42,7 +53,7 @@ const Projects = { template: ` <div id="projects-container">
 				<h1 class="pro-name">joyfeed</h1>
 			</div>
 			<div class="flex">
-				<p class="brief">Analyzes human emotions using machine learning and filters negative posts.</p>
+				<p class="brief">Analyzes human emotions using machine learning and filters negative posts</p>
 			</div>
 		</div>
 	</a>
@@ -53,7 +64,7 @@ const Projects = { template: ` <div id="projects-container">
 				<h1 class="pro-name">gimo</h1>
 			</div>
 			<div class="flex">
-				<p class="brief">Activity tracker but for GitHub streak.</p>
+				<p class="brief">Activity tracker but for GitHub streak</p>
 			</div>
 		</div>
 	</a>
@@ -75,7 +86,7 @@ const Projects = { template: ` <div id="projects-container">
 				<h1 class="pro-name">terminal quotes</h1>
 			</div>
 			<div class="flex">
-				<p class="brief">Display quotes on Terminal.</p>
+				<p class="brief">Display quotes on Terminal</p>
 			</div>
 		</div>
 	</a>
@@ -86,7 +97,7 @@ const Projects = { template: ` <div id="projects-container">
 				<h1 class="pro-name">ping-stocks</h1>
 			</div>
 			<div class="flex">
-				<p class="brief">Trade stock prices and send emails.</p>
+				<p class="brief">Trade stock prices and send emails</p>
 			</div>
 		</div>
 	</a>
