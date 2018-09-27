@@ -10,6 +10,7 @@ const About = { template: `<div id="main">
 				<br><br>My utmost passion is to connect <em>human</em> and <em>technology</em>, and to build <em>user-centric</em> products. 
 				<br><br><code class="note">[!] Meet me at <a href="https://ethsanfrancisco.com" target="blank_" class="here"><strong>ETHSanFrancisco</strong></a></code>
 				<br><code class="note">[-] Previously at <a href="https://trustwalletapp.com/" target="blank_" class="here"><strong>Trust Wallet</strong></a>, <a href="https://myfave.com/" target="blank_" class="here"><strong>Fave</strong></a></code>
+				<br><code class="note">[+] Recent project launch: 👤<a href="https://people.netlify.com" target="blank_" class="here"><strong>People</strong></a></code>
 				<br><code class="note">[+] Enjoy answering deep questions on <a href="https://www.deepthoughtapp.com/users/68/" target="blank_" class="here"><strong>Deep Thought</strong></a></code>
 				<br><code class="note">[0] twitter <a href="https://twitter.com/cyrsgh" target="blank_" class="here"><strong>/cyrsgh</strong></a></code>
 				<br><code class="note">[1] github <a href="https://github.com/lovincyrus" target="blank_" class="here"><strong>/lovincyrus</a></code>
