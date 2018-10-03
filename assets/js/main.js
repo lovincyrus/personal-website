@@ -1,7 +1,8 @@
 // 				<br><br><code class="note">[!] Currently breaking things at <a href="http://myfave.com/" target="blank_" class="here"><strong>Fave</strong></a></code>
 
 // Define route components.
-const About = { template: `<div id="main">
+const About = {
+	template: `<div id="main">
 	<div id="main-container">
 		<div class="about">
 			<h1 class="hero">Cyrus Goh</h1>
@@ -22,9 +23,11 @@ const About = { template: `<div id="main">
 				</p>
 		</div>
 	</div>
-</div>` }
+</div>`
+}
 
-const Projects = { template: ` <div id="projects-container">
+const Projects = {
+	template: ` <div id="projects-container">
 
 	<a class="link" href="https://people.netlify.com" target="_blank">
 	<div id="mouseover">	
@@ -103,7 +106,8 @@ const Projects = { template: ` <div id="projects-container">
 		</div>
 	</a>
 
-</div> ` }
+</div> `
+}
 
 
 // Define some routes
