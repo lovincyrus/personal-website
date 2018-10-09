@@ -26,6 +26,17 @@ const About = {
 const Projects = {
 	template: ` <div id="projects-container">
 
+	<a class="link" href="https://devpost.com/software/cao" target="_blank">
+	<div id="mouseover">	
+		<div class="container cao-background">
+			<h1 class="pro-name">CAO</h1>
+		</div>
+		<div class="flex">
+			<p class="brief">ETHSanFrancisco</p>
+		</div>
+	</div>
+	</a>
+
 	<a class="link" href="https://people.netlify.com" target="_blank">
 	<div id="mouseover">	
 		<div class="container people-background">
