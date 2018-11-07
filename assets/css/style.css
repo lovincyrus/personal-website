@@ -289,6 +289,15 @@ p.brief {
     max-width: 570px;
 }
 
+.hackdavis-background {
+    background: #141e30;
+    background: -webkit-linear-gradient(-45deg,#141e30,#3e6692,#141e30);
+    background: linear-gradient(-45deg,#141e30,#3e6692,#141e30);
+    background-size: 400% 400%;
+    animation: fadein .5s both;
+    animation-delay: .20s;
+}
+
 .cao-background {
     background: #ad5389;  /* fallback for old browsers */
     background: -webkit-linear-gradient(to left, #3c1053, #ad5389);  /* Chrome 10-25, Safari 5.1-6 */
