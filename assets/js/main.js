@@ -81,6 +81,17 @@ const Projects = {
 		</div>
 	</a>
 
+	<a class="link" href="https://github.com/lovincyrus/wakie-wakie" target="_blank">
+		<div id="mouseover">
+			<div class="container wakie-background">
+				<h1 class="pro-name">wakie wakie</h1>
+			</div>
+			<div class="flex">
+				<p class="brief">Automated wake up call using Twilio Voice</p>
+			</div>
+		</div>
+	</a>
+
 	<a class="link" href="https://github.com/lovincyrus/gimo" target="_blank">
 		<div id="mouseover">	
 			<div class="container gimo-background">
