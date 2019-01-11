@@ -92,17 +92,6 @@ const Projects = {
 		</div>
 	</a>
 
-	<a class="link" href="https://github.com/lovincyrus/gimo" target="_blank">
-		<div id="mouseover">	
-			<div class="container gimo-background">
-				<h1 class="pro-name">gimo</h1>
-			</div>
-			<div class="flex">
-				<p class="brief">Activity tracker but for GitHub streak</p>
-			</div>
-		</div>
-	</a>
-
 	<a class="link" href="https://github.com/lovincyrus/penguiin" target="_blank">
 		<div id="mouseover">
 			<div class="container penguiin-background">
@@ -121,17 +110,6 @@ const Projects = {
 			</div>
 			<div class="flex">
 				<p class="brief">Display quotes on Terminal</p>
-			</div>
-		</div>
-	</a>
-
-	<a class="link" href="https://github.com/lovincyrus/ping-stocks" target="_blank">
-		<div id="mouseover">	
-			<div class="container ping-stocks-background">
-				<h1 class="pro-name">ping-stocks</h1>
-			</div>
-			<div class="flex">
-				<p class="brief">Trade stock prices and send emails</p>
 			</div>
 		</div>
 	</a>

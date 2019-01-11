@@ -338,21 +338,13 @@ p.brief {
     animation-delay: .45s;
 }
 
-.gimo-background {
-    background: #20002c;  /* fallback for old browsers */
-    background: -webkit-linear-gradient(to left, #cbb4d4, #20002c);  /* Chrome 10-25, Safari 5.1-6 */
-    background: linear-gradient(to left, #cbb4d4, #20002c); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
-    animation: fadein .5s both;
-    animation-delay: .50s;
-}
-
 .penguiin-background {
     background: url(../img/penguiin.gif);
     background-position: right;
     background-size: 100% 100%;
     background-repeat: no-repeat;
     animation: fadein .5s both;
-    animation-delay: .55s;
+    animation-delay: .50s;
 }
 
 .quotes-background {
@@ -360,15 +352,7 @@ p.brief {
     background: -webkit-linear-gradient(to right, #2C5364, #203A43, #0F2027);  /* Chrome 10-25, Safari 5.1-6 */
     background: linear-gradient(to right, #2C5364, #203A43, #0F2027); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */    
     animation: fadein .5s both;
-    animation-delay: .60s;
-}
-
-.ping-stocks-background {
-    background: #003756;  /* fallback for old browsers */
-    background: -webkit-linear-gradient(to left, #f68e35, #003756);  /* Chrome 10-25, Safari 5.1-6 */
-    background: linear-gradient(to left, #f68e35, #003756); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
-    animation: fadein .5s both;
-    animation-delay: .65s;
+    animation-delay: .55s;
 }
 
 #mouseover:hover {
