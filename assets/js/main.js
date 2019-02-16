@@ -48,7 +48,7 @@ const Projects = {
 	</div>
 	</a>
 
-	<a class="link" href="https://people.netlify.com" target="_blank">
+	<a class="link" href="https://people.davisakpsi.com" target="_blank">
 	<div id="mouseover">	
 		<div class="container people-background">
 			<h1 class="pro-name">People</h1>
