@@ -11,7 +11,7 @@ export default () => (
         
         a {
           color: white;
-          font-weight: bold;
+          font-weight: 500;
           text-decoration: none;
           text-shadow: rgba(0, 0, 0, 0.2) 1px 1px 0px;
           border-bottom: 2px solid transparent;

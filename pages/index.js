@@ -49,12 +49,13 @@ export default () => (
         .intro-greeting {
           display: block;
           color: #007AFF;
-          font: 2.3rem/120% -apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,Helvetica,Arial,sans-serif,"Apple Color Emoji","Segoe UI Emoji","Segoe UI Symbol";;
+          font: 2rem/120% Graphik;
+          font-weight: 700;
         }
 
         .intro-bio {
           display: block;
-          font: 2.1rem/120% -apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,Helvetica,Arial,sans-serif,"Apple Color Emoji","Segoe UI Emoji","Segoe UI Symbol";;
+          font: 2.1rem/120% Graphik;
           color: #fff;
         }
 
@@ -65,12 +66,17 @@ export default () => (
         }
 
         @media (max-width: 696px) {
+          .wrapper-intro {
+            width: 100%;
+            height: 60vh;
+          }
+
           .intro-greeting {
-            font: 2.5rem/120% -apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,Helvetica,Arial,sans-serif,"Apple Color Emoji","Segoe UI Emoji","Segoe UI Symbol";;
+            font: 2rem/120% Graphik;
           }
 
           .intro-bio {
-            font: 1.8rem/120% -apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,Helvetica,Arial,sans-serif,"Apple Color Emoji","Segoe UI Emoji","Segoe UI Symbol";;
+            font: 1.8rem/120% Graphik;
           }
         }
       `}
@@ -78,8 +84,50 @@ export default () => (
       <style jsx global>
       {`
         body {
-          font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
+          font-family: Graphik,Helvetica Neue,Helvetica,Arial,sans-serif;
           background: rgb(18, 18, 18);
+        }
+        
+        @font-face {
+          font-family: "Graphik";
+          font-weight: 100;
+          font-style: normal;
+          src: url("/static/fonts/Graphik-100-Thin.otf")
+        }
+
+        @font-face {
+          font-family: "Graphik";
+          font-weight: 300;
+          font-style: light;
+          src: url("/static/fonts/Graphik-300-Light.otf")
+        }
+
+        @font-face {
+          font-family: "Graphik";
+          font-weight: 400;
+          font-style: normal;
+          src: url("/static/fonts/Graphik-400-Regular.otf")
+        }
+
+        @font-face {
+          font-family: "Graphik";
+          font-weight: 500;
+          font-style: medium;
+          src: url("/static/fonts/Graphik-500-Medium.otf")
+        }
+
+        @font-face {
+          font-family: "Graphik";
+          font-weight: 700;
+          font-style: bold;
+          src: url("/static/fonts/Graphik-700-Bold.otf")
+        }
+
+        @font-face {
+          font-family: "Graphik";
+          font-weight: 900;
+          font-style: bold;
+          src: url("/static/fonts/Graphik-900-Super.otf")
         }
       `}
       </style>
