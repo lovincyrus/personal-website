@@ -49,7 +49,7 @@ export default () => (
         .intro-greeting {
           display: block;
           color: #007AFF;
-          font: 2rem/120% Graphik;
+          font: 2.3rem/120% Graphik;
           font-weight: 700;
         }
 
@@ -73,6 +73,7 @@ export default () => (
 
           .intro-greeting {
             font: 2rem/120% Graphik;
+            font-weight: 700;
           }
 
           .intro-bio {

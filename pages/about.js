@@ -40,11 +40,6 @@ export default () => (
     </div>
     <style jsx>
     {`
-      body {
-        font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
-        background: rgb(18, 18, 18);
-      }
-
       .container {
         position: relative;
         max-width: 1200px;
@@ -78,6 +73,7 @@ export default () => (
       p {
         color: white;
         font-size: 1em;
+        font-weight: 300;
         line-height: 1.6;
         margin: 0px 0px 2rem;
       }
@@ -139,9 +135,16 @@ export default () => (
     <style jsx global>
     {`
       body {
-        font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
+        font-family: Graphik,Helvetica Neue,Helvetica,Arial,sans-serif;;
         background: rgb(18, 18, 18);
       }
+
+      @font-face {
+          font-family: "Graphik";
+          font-weight: 300;
+          font-style: light;
+          src: url("/static/fonts/Graphik-300-Light.otf")
+        }
     `}
     </style>
   </React.Fragment>
