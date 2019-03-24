@@ -1,7 +1,9 @@
 import Head from 'next/head'
+import Link from 'next/link'
 
-import TopBar from '../components/topbar'
-import Footer from '../components/footer'
+import TopBar from '../components/TopBar'
+import Footer from '../components/Footer'
+import ProjectsList from '../components/ProjectsList';
 
 export default () => (
   <React.Fragment>
@@ -21,10 +23,15 @@ export default () => (
           <section className="intro">
             <h1 className="intro-greeting">Hi, I'm Cyrus.</h1>
             <span className="intro-bio">Developer and cognitive science student at UC Davis.</span>
-            <span className="intro-bio">Currently exploring frontend opportunities. Previously breaking things at 8x Protocol, HackDavis, Fave, Trust Wallet (acq. Binance)</span>
+            <span className="intro-bio">Currently exploring frontend opportunities. Previously breaking things at 8x Protocol, HackDavis, Fave, Trust Wallet (acq. Binance) 
+              <Link href="/about">
+                <a className="right-arrow"> &#8594;</a>
+              </Link>
+            </span>
           </section>
         </div>
       </div>
+      <ProjectsList />
       <Footer />
     </div>
 
@@ -57,6 +64,11 @@ export default () => (
           display: block;
           font: 2.1rem/120% Graphik;
           color: #fff;
+        }
+
+        .right-arrow {
+          color: white;
+          font-size: 28px;
         }
 
         @media (max-width: 1440px) {

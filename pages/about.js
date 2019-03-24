@@ -1,8 +1,7 @@
 import Head from 'next/head'
-import Link from 'next/link'
 
-import TopBar from '../components/topbar'
-import Footer from '../components/footer'
+import TopBar from '../components/TopBar'
+import Footer from '../components/Footer'
 
 export default () => (
   <React.Fragment>
@@ -27,7 +26,7 @@ export default () => (
             </div>
             <div className="about-bio">
               <h3>Hi, I'm Cyrus</h3>
-              <p>I am a software engineer, app developer, JS enthusiast and a cognitive science student at UC Davis. I love to learn by doing things, which is why I am always in progress. I firmly believe that it is not what technology stack you use that make the product great, it is how you implement it.</p>
+              <p>I am a software engineer, JS enthusiast and a cognitive science student at UC Davis. I love to learn by doing things, which is why I am always in progress. I firmly believe that it is not what technology stack you use that make the product great, it is how you implement it.</p>
               <p>When I'm not building apps, I enjoy having deep conversations with people and shooting film photography using Olympus XA2 and Nikon FM2n.
 </p>
               <p><a href="https://blog.lovincyrus.com/"><strong>Learn more</strong></a> about why I do what I do.</p>

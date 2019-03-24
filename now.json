@@ -1,0 +1,18 @@
+{
+  "github": {
+    "silent": true
+  },
+  "files": [
+    "components",
+    "config",
+    "lib",
+    "pages",
+    "static",
+    "types",
+    ".babelrc.js",
+    "server.js"
+  ],
+  "builds": [
+    { "src": "next.config.js", "use": "@now/next" }
+  ]
+}
