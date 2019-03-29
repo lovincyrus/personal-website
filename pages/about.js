@@ -26,10 +26,9 @@ export default () => (
             </div>
             <div className="about-bio">
               <h3>Hi, I'm Cyrus</h3>
-              <p>I am a software engineer, JS enthusiast and a cognitive science student at UC Davis. I love to learn by doing things, which is why I am always in progress. I firmly believe that it is not what technology stack you use that make the product great, it is how you implement it.</p>
+              <p>I am a developer and a cognitive science student at UC Davis. I love to learn by doing things, which is why I am always in progress. I also learn in public at <a href="https://docs.lovincyrus.com" target="_blank"><strong>GitBook</strong></a>. Sometimes I explain why I do what I do in this <a href="https://blog.lovincyrus.com/" target="_blank"><strong>blog</strong></a>. Occasionally, I post my photographs at <a href="https://vsco.co/lovincyrus" target="_blank"><strong>VSCO</strong>.</a></p>
               <p>When I'm not building apps, I enjoy having deep conversations with people and shooting film photography using Olympus XA2 and Nikon FM2n.
 </p>
-              <p><a href="https://blog.lovincyrus.com/"><strong>Learn more</strong></a> about why I do what I do.</p>
               <p><a href="mailto:hello@lovincyrus.com">📩 <strong>hello@lovincyrus.com</strong></a></p>
             </div>
           </div>

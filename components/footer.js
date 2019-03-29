@@ -28,7 +28,7 @@ export default () => (
       Davis, CA
     </span>
     <span className="grey this-year">
-      &copy; this year
+      <a href="https://lovincyrus.github.io/" target="_blank"><code>v2</code></a>
     </span>
     <style jsx global>
       {`

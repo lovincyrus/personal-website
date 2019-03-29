@@ -56,10 +56,39 @@ export default () => (
       }
 
       a {
-        font-size: 22px;
-        font-weight: 600;
+        font-size: 18px;
+        font-weight: 500;
         color: #2e3333;
         text-decoration: none;
+      }
+
+      @media (max-width: 696px) {
+      .tags-container {
+        padding: 48px 5px;
+      }
+
+      .tags-wrapper {
+        position: relative;
+        padding-left: 16px;
+        padding-right: 16px;
+        margin-left: auto;
+        margin-right: auto;
+        -webkit-box-sizing: border-box;
+        box-sizing: border-box;
+        max-width: 900px;
+      }
+
+      .project-tags {
+        margin: 0;
+        padding: 0;
+      }
+
+      a {
+        font-size: 18px;
+        font-weight: 500;
+        color: #2e3333;
+        text-decoration: none;
+      }
       }
       `}
       </style>
