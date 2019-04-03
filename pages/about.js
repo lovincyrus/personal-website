@@ -1,4 +1,5 @@
 import Head from 'next/head'
+import Link from 'next/link'
 
 import TopBar from '../components/TopBar'
 import Footer from '../components/Footer'
@@ -30,6 +31,7 @@ export default () => (
               <p>When I'm not building apps, I enjoy having deep conversations with people and shooting film photography using Olympus XA2 and Nikon FM2n.
 </p>
               <p><a href="mailto:hello@lovincyrus.com">📩 <strong>hello@lovincyrus.com</strong></a></p>
+              <button className="resume-btn"><Link href="/static/resume/cyrusgoh-resume.pdf"><a>résumé</a></Link></button>
             </div>
           </div>
         </div>
@@ -61,7 +63,7 @@ export default () => (
       }
 
       h3 {
-        color: white;
+        color: #fff;
         line-height: 1;
         font-weight: bold;
         font-size: 2em;
@@ -69,7 +71,7 @@ export default () => (
       }
 
       p {
-        color: white;
+        color: #fff;
         font-size: 1em;
         font-weight: 300;
         line-height: 1.6;
@@ -86,6 +88,46 @@ export default () => (
         width: 1em;
         vertical-align: -0.1em;
         margin: 0px 0.05em 0px 0.1em;
+      }
+
+      .resume-btn {
+        -webkit-appearance: none;
+        display: -webkit-box;
+        display: -webkit-flex;
+        display: -ms-flexbox;
+        display: flex;
+        -webkit-flex: none;
+        -ms-flex: none;
+        flex: none;
+        -webkit-align-self: center;
+        -ms-flex-item-align: center;
+        align-self: center;
+        -webkit-align-items: center;
+        -webkit-box-align: center;
+        -ms-flex-align: center;
+        align-items: center;
+        -webkit-box-pack: center;
+        -webkit-justify-content: center;
+        -ms-flex-pack: center;
+        justify-content: center;
+        border-radius: 4px;
+        font-size: 16px;
+        font-weight: 500;
+        white-space: nowrap;
+        word-break: keep-all;
+        -webkit-transition: all 0.2s ease-in-out;
+        transition: all 0.2s ease-in-out;
+        cursor: pointer;
+        line-height: 1;
+        position: relative;
+        text-align: center;
+        padding: 10px 20px;
+        opacity: 1;
+        box-shadow: 0 1px 2px rgba(0,0,0,0.04);
+        border: 1px solid #007AFF;
+        color: #FFF;
+        background-color: #007AFF;
+        text-shadow: 0 1px 1px rgba(0,0,0,0.08);
       }
 
       @media screen and (min-width: 60em) {

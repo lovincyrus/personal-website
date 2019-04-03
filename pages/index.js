@@ -1,5 +1,4 @@
 import Head from 'next/head'
-import Link from 'next/link'
 
 import TopBar from '../components/TopBar'
 import Footer from '../components/Footer'
@@ -21,17 +20,11 @@ export default () => (
       <div className="wrapper-home">
         <div className="wrapper-intro">
           <section className="intro">
-            <h1 className="intro-greeting">Hi, I'm Cyrus.</h1>
-            <span className="intro-bio">Developer and cognitive science student at UC Davis.</span>
-            <span className="intro-bio">Currently exploring frontend opportunities. Previously breaking things at 8x Protocol, HackDavis, Fave, Trust Wallet (acq. Binance) 
-              <Link href="/about">
-                <a className="right-arrow"> &#8594;</a>
-              </Link>
-            </span>
+            <span className="intro-bio">Developer and cognitive science student at UC Davis. Currently exploring frontend full-time opportunities. Previously breaking things at 8x Protocol, HackDavis, Fave, Trust Wallet (acq. Binance)</span>
           </section>
         </div>
       </div>
-      <ProjectsList />
+      {/* <ProjectsList /> */}
       <Footer />
     </div>
 
@@ -53,13 +46,6 @@ export default () => (
           text-align: left;
         }
 
-        .intro-greeting {
-          display: block;
-          color: #007AFF;
-          font: 2.3rem/120% Graphik;
-          font-weight: 700;
-        }
-
         .intro-bio {
           display: block;
           font: 2.1rem/120% Graphik;
@@ -67,7 +53,7 @@ export default () => (
         }
 
         .right-arrow {
-          color: white;
+          color: #fff;
           font-size: 28px;
         }
 
@@ -83,11 +69,6 @@ export default () => (
             height: 60vh;
           }
 
-          .intro-greeting {
-            font: 2rem/120% Graphik;
-            font-weight: 700;
-          }
-
           .intro-bio {
             font: 1.8rem/120% Graphik;
           }
@@ -99,6 +80,11 @@ export default () => (
         body {
           font-family: Graphik,Helvetica Neue,Helvetica,Arial,sans-serif;
           background: rgb(18, 18, 18);
+        }
+
+        a {
+          text-decoration: none;
+          color: #fff;
         }
         
         @font-face {
