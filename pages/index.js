@@ -2,7 +2,7 @@ import Head from 'next/head'
 
 import TopBar from '../components/TopBar'
 import Footer from '../components/Footer'
-import ProjectsList from '../components/ProjectsList';
+import Projects from '../components/Projects'
 
 export default () => (
   <React.Fragment>
@@ -15,28 +15,56 @@ export default () => (
       />
     </Head>
 
-    <div className="main">
-      <TopBar />
-      <div className="wrapper-home">
-        <div className="wrapper-intro">
-          <section className="intro">
-            <span className="intro-bio">Developer and cognitive science student at UC Davis. Currently exploring frontend full-time opportunities. Previously breaking things at 8x Protocol, HackDavis, Fave, Trust Wallet (acq. Binance)</span>
-          </section>
+    <div className="body-container">
+      <div className="body-wrapper">
+        <TopBar />
+        <div className="home-wrapper">
+          <div className="intro-wrapper">
+            <section className="intro">
+              <span className="intro-bio">Developer and cognitive science student at UC Davis.</span>
+            </section>
+          </div>
         </div>
+        < Projects />
+        <Footer />
       </div>
-      {/* <ProjectsList /> */}
-      <Footer />
     </div>
 
     <style jsx>
       {`
-        .wrapper-home {
+        .body-container {
+          display: flex;
+          flex-direction: column;
+          -webkit-box-pack: start;
+          justify-content: flex-start;
+          -webkit-box-align: center;
+          align-items: center;
+          height: 100%;
+          max-width: 100%;
+        }
+
+        .body-wrapper {
+          display: flex;
+          flex-direction: column;
+          align-items: flex-start;
+          -webkit-box-pack: start;
+          justify-content: flex-start;
+          padding-top: 64px;
+          padding-left: 32px;
+          padding-right: 32px;
+          position: relative;
+          width: 100%;
+          max-width: 768px;
+          flex: 1 0 auto;
+        }
+
+        .home-wrapper {
           padding: 0 23%;
         }
 
-        .wrapper-intro {
+        .intro-wrapper {
           width: 100%;
-          height: 50vh;
+          height: 23vh;
           display: flex;
           align-items: center;
         }
@@ -48,7 +76,7 @@ export default () => (
 
         .intro-bio {
           display: block;
-          font: 2.1rem/120% Graphik;
+          font: 2rem/120% Graphik;
           color: #fff;
         }
 
@@ -58,13 +86,13 @@ export default () => (
         }
 
         @media (max-width: 1440px) {
-          .wrapper-home {
-            padding: 0 12.5% 0 12.5%;
+          .home-wrapper {
+            padding: 0 2% 0 2%;
           }
         }
 
         @media (max-width: 696px) {
-          .wrapper-intro {
+          .intro-wrapper {
             width: 100%;
             height: 60vh;
           }

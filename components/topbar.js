@@ -4,7 +4,7 @@ export default () => (
   <div className="top-container">
     <Link prefetch href="/"><a>Cyrus Goh</a></Link>
     <span className="right-wrapper">
-      <button className="about-btn"><Link href="/about"><a>About</a></Link></button>
+      <button className="about-btn"><a href="/about">About</a></button>
     </span>
     <style jsx>
     {`

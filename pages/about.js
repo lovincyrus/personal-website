@@ -27,9 +27,12 @@ export default () => (
             </div>
             <div className="about-bio">
               <h3>Hi, I'm Cyrus</h3>
-              <p>I am a developer and a cognitive science student at UC Davis. I love to learn by doing things, which is why I am always in progress. I also learn in public at <a href="https://docs.lovincyrus.com" target="_blank"><strong>GitBook</strong></a>. Sometimes I explain why I do what I do in this <a href="https://blog.lovincyrus.com/" target="_blank"><strong>blog</strong></a>. Occasionally, I post my photographs at <a href="https://vsco.co/lovincyrus" target="_blank"><strong>VSCO</strong>.</a></p>
-              <p>When I'm not building apps, I enjoy having deep conversations with people and shooting film photography using Olympus XA2 and Nikon FM2n.
-</p>
+              <p>I am a developer and a cognitive science student at UC Davis. Currently exploring frontend full-time opportunities. </p>
+              <p>Previously: <span className="prev-companies">8x Protocol, HackDavis, Fave, Trust Wallet (acq. Binance).</span></p>
+              <p>
+                I love to learn by doing things, which is why I am always in progress. I also learn in public at <a href="https://docs.lovincyrus.com" target="_blank"><strong>GitBook</strong></a>. Sometimes I explain why I do what I do in this <a href="https://blog.lovincyrus.com/" target="_blank"><strong>blog</strong></a>. Occasionally, I post photographs on <a href="https://vsco.co/lovincyrus" target="_blank"><strong>VSCO</strong>.</a> When I'm not building apps, I enjoy having deep conversations with people and shooting film photography using Olympus XA2 and Nikon FM2n.
+              </p>
+              <p><a href="https://t.me/lovincyrus"><strong>Ping me</strong></a> for 💬💡☕️ </p>
               <p><a href="mailto:hello@lovincyrus.com">📩 <strong>hello@lovincyrus.com</strong></a></p>
               <button className="resume-btn"><Link href="/static/resume/cyrusgoh-resume.pdf"><a>résumé</a></Link></button>
             </div>
@@ -51,6 +54,10 @@ export default () => (
 
       .about-bio {
         line-height: 1.6;
+      }
+
+      .prev-companies {
+        font-weight: 700;
       }
 
       .img-wrapper {
@@ -180,11 +187,11 @@ export default () => (
       }
 
       @font-face {
-          font-family: "Graphik";
-          font-weight: 300;
-          font-style: light;
-          src: url("/static/fonts/Graphik-300-Light.otf")
-        }
+        font-family: "Graphik";
+        font-weight: 300;
+        font-style: light;
+        src: url("/static/fonts/Graphik-300-Light.otf")
+      } 
     `}
     </style>
   </React.Fragment>

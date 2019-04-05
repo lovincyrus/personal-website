@@ -10,7 +10,7 @@ library.add(faTwitter, faGithub, faLinkedinIn, faKeybase, faEnvelope);
 export default () => (
   <React.Fragment>
     <div className="footer-container">
-      <span className="contact-icons">
+      <span className="contact-wrapper">
         <a target="_blank" href="https://twitter.com/cyrsgh" rel="noopener noreferrer">
           <FontAwesomeIcon icon={["fab", "twitter"]} className="contact-icon" />
         </a>
@@ -47,9 +47,9 @@ export default () => (
           src: url("/static/fonts/Graphik-500-Medium.otf")
         }
 
-        .contact-icons {
+        .contact-wrapper {
           bottom: 24px;
-          left: 5vw;
+          left: 2vw;
           position: absolute;
         }
 
@@ -69,7 +69,7 @@ export default () => (
         .current-location {
           bottom: 24px;
           position: absolute;
-          right: 5vw;
+          right: 2vw;
         }
 
         .this-year {
