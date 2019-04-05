@@ -1,44 +1,45 @@
-export default () => (
+import data from '../config/projects';
+
+export default function Projects() {
+  const truncated = data.slice(0, 4);
+
+  return (
+  <React.Fragment>
     <div className="projects-container">
-      <a href="http://cyrusgoh.com" target="_blank" rel="noopener noreferrer">
-        <div className="projects-wrapper">
-          <div className="project">
-            <p className="name">name</p>
-            <p className="description">description</p>
-            <p className="tags">react</p>
+      {truncated.map((project, index) => (
+        <a href={project.url} target="_blank" rel="noopener noreferrer">
+          <div className="projects-wrapper">
+            <div className="project" key={index}>
+              <p className="name">{project.name}</p>
+              <p className="description">{project.description}</p>
+              <p className="tags">react</p>
+            </div>
           </div>
-        </div>
-      </a>
-      <a href="http://cyrusgoh.com" target="_blank" rel="noopener noreferrer">
-        <div className="projects-wrapper">
-          <div className="project">
-            <p className="name">name</p>
-            <p className="description">description</p>
-            <p className="tags">react</p>
-          </div>
-        </div>
-      </a>
-      <a href="http://cyrusgoh.com" target="_blank" rel="noopener noreferrer">
-        <div className="projects-wrapper">
-          <div className="project">
-            <p className="name">name</p>
-            <p className="description">description</p>
-            <p className="tags">react</p>
-          </div>
-        </div>
-      </a>
-      <a href="http://cyrusgoh.com" target="_blank" rel="noopener noreferrer">
-        <div className="projects-wrapper">
-          <div className="project">
-            <p className="name">name</p>
-            <p className="description">description</p>
-            <p className="tags">react</p>
-          </div>
-        </div>
-      </a>
+        </a>
+      ))}
+    </div>
+    {/* <div className="view-more">
+      <button className="view-more-btn">View all projects</button>
+    </div> */}
       
     <style jsx>
     {`
+      .view-more {
+        margin-top: 32px;
+        width: 100%;
+        -webkit-box-pack: center;
+        justify-content: center;
+        display: flex;
+      }
+
+      .view-more-btn {
+        width: 100%;
+        font-weight: 600;
+        color: rgb(92, 97, 102);
+        background: rgb(236, 237, 238);
+        padding: 12px;
+      }
+
       .projects-container {
         display: grid;
         grid-template-columns: 1fr 1fr;
@@ -63,15 +64,16 @@ export default () => (
       }
 
       .name {
-        font-size: 14px;
-        color: rgb(92, 97, 102);
-      }
-
-      .description {
         font-size: 18px;
         color: rgb(0, 0, 0);
         font-weight: 600;
         margin-bottom: 8px;
+      }
+
+      .description {
+        font-size: 16px;
+        color: rgb(33, 35, 37);
+        line-height: 1.4;
       }
 
       .tags {
@@ -95,5 +97,6 @@ export default () => (
       }
     `}
     </style>
-  </div>
-)
+  </React.Fragment>
+  );
+}

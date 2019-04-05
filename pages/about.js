@@ -32,7 +32,7 @@ export default () => (
               <p>
                 I love to learn by doing things, which is why I am always in progress. I also learn in public at <a href="https://docs.lovincyrus.com" target="_blank"><strong>GitBook</strong></a>. Sometimes I explain why I do what I do in this <a href="https://blog.lovincyrus.com/" target="_blank"><strong>blog</strong></a>. Occasionally, I post photographs on <a href="https://vsco.co/lovincyrus" target="_blank"><strong>VSCO</strong>.</a> When I'm not building apps, I enjoy having deep conversations with people and shooting film photography using Olympus XA2 and Nikon FM2n.
               </p>
-              <p><a href="https://t.me/lovincyrus"><strong>Ping me</strong></a> for 💬💡☕️ </p>
+              <p>Say hi for 💬💡☕️ </p>
               <p><a href="mailto:hello@lovincyrus.com">📩 <strong>hello@lovincyrus.com</strong></a></p>
               <button className="resume-btn"><Link href="/static/resume/cyrusgoh-resume.pdf"><a>résumé</a></Link></button>
             </div>
@@ -145,7 +145,7 @@ export default () => (
 
       @media screen and (min-width: 40em) {
         .container {
-          padding: 0px 3rem;
+          padding-top: 50px;
         }
 
         .about-wrapper {
@@ -176,6 +176,15 @@ export default () => (
           flex: 0 0 65%;
         }
       }
+
+      @media (max-width: 639px) {
+        .container {
+          padding-top: 90px;
+        }
+
+        .about-bio {
+          transform: translateY(20px);
+        }
     `}
     </style>
 

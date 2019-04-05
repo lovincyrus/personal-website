@@ -49,7 +49,7 @@ export default () => (
           align-items: flex-start;
           -webkit-box-pack: start;
           justify-content: flex-start;
-          padding-top: 64px;
+          padding-top: 24px;
           padding-left: 32px;
           padding-right: 32px;
           position: relative;

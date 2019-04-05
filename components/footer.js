@@ -3,8 +3,6 @@ import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import { faEnvelope } from '@fortawesome/free-solid-svg-icons'
 import { faTwitter, faGithub, faLinkedinIn, faKeybase } from '@fortawesome/free-brands-svg-icons'
 
-import data from '../config/projects';
-
 library.add(faTwitter, faGithub, faLinkedinIn, faKeybase, faEnvelope);
 
 export default () => (
@@ -98,6 +96,12 @@ export default () => (
           padding: 16px;
           -webkit-transition: all 0.2s ease-in-out 0s;
           transition: all 0.2s ease-in-out 0s;
+        }
+
+        @media (max-width: 639px) {
+          .footer-container {
+            display: none;
+          }
         }
       `}
       </style>
