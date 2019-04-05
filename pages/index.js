@@ -76,7 +76,7 @@ export default () => (
 
         .intro-bio {
           display: block;
-          font: 2rem/120% Graphik;
+          font: 1.8rem Graphik;
           color: #fff;
         }
 
