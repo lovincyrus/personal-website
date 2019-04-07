@@ -2,6 +2,7 @@ export default [
   {
     name: 'HackDavis 2019',
     description: 'HackDavis 2019 | February 9 - 10, 2019',
+    tags: 'react',
     url: 'https://5c83541259969ac788d40d9c--hackdavis.netlify.com/',
   },
   {

@@ -85,7 +85,7 @@ export default () => (
         }
 
         .current-location {
-          color: #696969;
+          color: #858585;
           font-family: Graphik;
           font-size: 2vh;
           font-weight: 500;

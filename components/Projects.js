@@ -7,9 +7,9 @@ export default function Projects() {
   <React.Fragment>
     <div className="projects-container">
       {truncated.map((project, index) => (
-        <a href={project.url} target="_blank" rel="noopener noreferrer">
+        <a href={project.url} target="_blank" rel="noopener noreferrer" key={index}>
           <div className="projects-wrapper">
-            <div className="project" key={index}>
+            <div className="project">
               <p className="name">{project.name}</p>
               <p className="description">{project.description}</p>
             </div>
@@ -17,28 +17,9 @@ export default function Projects() {
         </a>
       ))}
     </div>
-    {/* <div className="view-more">
-      <button className="view-more-btn">View all projects</button>
-    </div> */}
       
     <style jsx>
     {`
-      .view-more {
-        margin-top: 32px;
-        width: 100%;
-        -webkit-box-pack: center;
-        justify-content: center;
-        display: flex;
-      }
-
-      .view-more-btn {
-        width: 100%;
-        font-weight: 600;
-        color: rgb(92, 97, 102);
-        background: rgb(236, 237, 238);
-        padding: 12px;
-      }
-
       .projects-container {
         display: grid;
         grid-template-columns: 1fr 1fr;
@@ -50,7 +31,7 @@ export default function Projects() {
       .projects-wrapper {
         position: relative;
         box-shadow: rgba(0, 0, 0, 0.08) 0px 4px 8px;
-        background: rgb(255, 255, 255);
+        background: rgb(37, 37, 37, 0.97);
         border-radius: 8px;
         height: 150px;
       }
@@ -64,25 +45,15 @@ export default function Projects() {
 
       .name {
         font-size: 18px;
-        color: rgb(0, 0, 0);
-        font-weight: 600;
+        color: #fff;
+        font-weight: 500;
         margin-bottom: 8px;
       }
 
       .description {
         font-size: 16px;
-        color: rgb(33, 35, 37);
+        color: #858585;
         line-height: 1.4;
-      }
-
-      .tags {
-        background: #303030;
-        border: none;
-        border-radius: 3px;
-        color: #fefefe;
-        font-size: 14px;
-        font-weight: 700;
-        padding: 10px 12px;
       }
 
       @media (max-width: 500px) {

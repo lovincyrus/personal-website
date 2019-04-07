@@ -30,7 +30,7 @@ export default () => (
               <p>I am a developer and a cognitive science student at UC Davis. Currently exploring frontend full-time opportunities. </p>
               <p>Previously: <span className="prev-companies">8x Protocol, HackDavis, Fave, Trust Wallet (acq. Binance).</span></p>
               <p>
-                I love to learn by doing things, which is why I am always in progress. I also learn in public at <a href="https://docs.lovincyrus.com" target="_blank"><strong>GitBook</strong></a>. Sometimes I explain why I do what I do in this <a href="https://blog.lovincyrus.com/" target="_blank"><strong>blog</strong></a>. Occasionally, I post photographs on <a href="https://vsco.co/lovincyrus" target="_blank"><strong>VSCO</strong>.</a> When I'm not building apps, I enjoy having deep conversations with people and shooting film photography using Olympus XA2 and Nikon FM2n.
+                I love to learn by doing things, which is why I am always in progress. I also learn in public at <a href="https://docs.lovincyrus.com" target="_blank"><strong>GitBook</strong></a>. Sometimes I explain why I do what I do in this <a href="https://blog.lovincyrus.com/" target="_blank"><strong>blog</strong></a>. Occasionally, I post photographs on <a href="https://vsco.co/lovincyrus" target="_blank"><strong>VSCO</strong></a>. When I'm not building apps, I enjoy having deep conversations with people and shooting film photography using Olympus XA2 and Nikon FM2n.
               </p>
               <p>Say hi for 💬💡☕️ </p>
               <p><a href="mailto:hello@lovincyrus.com">📩 <strong>hello@lovincyrus.com</strong></a></p>
@@ -72,13 +72,13 @@ export default () => (
       h3 {
         color: #fff;
         line-height: 1;
-        font-weight: bold;
+        font-weight: 500;
         font-size: 2em;
         margin: 0px 0px 1rem;
       }
 
       p {
-        color: #fff;
+        color: #858585;
         font-size: 1em;
         font-weight: 300;
         line-height: 1.6;
