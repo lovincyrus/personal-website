@@ -1,7 +1,7 @@
 import Link from 'next/link'
 
 export default () => (
-  <div className="top-container">
+  <nav className="top-container">
     <Link prefetch href="/"><a>Cyrus Goh</a></Link>
     <span className="right-wrapper">
       <Link href="/about">
@@ -14,15 +14,13 @@ export default () => (
         display: grid;
         grid-template-columns: 1fr 1fr;
         grid-template-areas: "logo actions";
-        position: fixed;
+        position: absolute;
         align-items: center;
         top: 0px;
         left: 0px;
-        right: 0px;
-        z-index: 3;
+        right: 0px; 
         box-shadow: none;
         padding: 26px;
-        transition: all 0.2s ease-in-out 0s;
       }
 
       .right-wrapper {
@@ -66,8 +64,6 @@ export default () => (
         font-weight: 500;
         white-space: nowrap;
         word-break: keep-all;
-        -webkit-transition: all 0.2s ease-in-out;
-        transition: all 0.2s ease-in-out;
         cursor: pointer;
         line-height: 1;
         position: relative;
@@ -100,6 +96,5 @@ export default () => (
         }
       `}
       </style>
-  </div>
-
+  </nav>
 )

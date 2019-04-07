@@ -12,7 +12,6 @@ export default function Projects() {
             <div className="project" key={index}>
               <p className="name">{project.name}</p>
               <p className="description">{project.description}</p>
-              <p className="tags">react</p>
             </div>
           </div>
         </a>
@@ -53,7 +52,7 @@ export default function Projects() {
         box-shadow: rgba(0, 0, 0, 0.08) 0px 4px 8px;
         background: rgb(255, 255, 255);
         border-radius: 8px;
-        transition: all 0.2s ease-out 0s;
+        height: 150px;
       }
 
       .project {

@@ -11,7 +11,7 @@ export default [
   },
   {
     name: 'People',
-    description: 'Discover ΑΚΨ brothers in the professional world',
+    description: 'Discover ΑΚΨ Upsilon Psi alumni brothers in the professional world',
     url: 'http://people.davisakpsi.com',
   },
   {

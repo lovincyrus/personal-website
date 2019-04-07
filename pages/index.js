@@ -15,20 +15,18 @@ export default () => (
       />
     </Head>
 
+    <TopBar />
     <div className="body-container">
       <div className="body-wrapper">
-        <TopBar />
         <div className="home-wrapper">
           <div className="intro-wrapper">
-            <section className="intro">
-              <span className="intro-bio">Developer and cognitive science student at UC Davis.</span>
-            </section>
+            <span className="intro-bio">Developer and cognitive science student at UC Davis.</span>
           </div>
         </div>
-        < Projects />
-        <Footer />
+        <Projects />
       </div>
     </div>
+    <Footer />
 
     <style jsx>
       {`
@@ -46,12 +44,7 @@ export default () => (
         .body-wrapper {
           display: flex;
           flex-direction: column;
-          align-items: flex-start;
-          -webkit-box-pack: start;
-          justify-content: flex-start;
           padding-top: 24px;
-          padding-left: 32px;
-          padding-right: 32px;
           position: relative;
           width: 100%;
           max-width: 768px;
@@ -64,18 +57,15 @@ export default () => (
 
         .intro-wrapper {
           width: 100%;
-          height: 23vh;
+          height: 33vh;
           display: flex;
           align-items: center;
-        }
-
-        .intro {
-          margin: 0 auto;
           text-align: left;
         }
 
         .intro-bio {
           display: block;
+          text-align: left;
           font: 1.8rem Graphik;
           color: #fff;
         }

@@ -122,8 +122,6 @@ export default () => (
         font-weight: 500;
         white-space: nowrap;
         word-break: keep-all;
-        -webkit-transition: all 0.2s ease-in-out;
-        transition: all 0.2s ease-in-out;
         cursor: pointer;
         line-height: 1;
         position: relative;
@@ -145,7 +143,7 @@ export default () => (
 
       @media screen and (min-width: 40em) {
         .container {
-          padding-top: 50px;
+          padding-top: 20px;
         }
 
         .about-wrapper {
