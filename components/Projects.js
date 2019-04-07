@@ -31,7 +31,7 @@ export default function Projects() {
       .projects-wrapper {
         position: relative;
         box-shadow: rgba(0, 0, 0, 0.08) 0px 4px 8px;
-        background: rgb(37, 37, 37, 0.97);
+        background: #252525;
         border-radius: 8px;
         height: 150px;
       }
