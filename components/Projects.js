@@ -36,6 +36,10 @@ export default function Projects() {
         height: 150px;
       }
 
+      .projects-wrapper:hover {
+        opacity: 0.85;
+      }
+
       .project {
         display: flex;
         flex-direction: column;

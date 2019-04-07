@@ -80,13 +80,13 @@ export default () => (
       p {
         color: #858585;
         font-size: 1em;
-        font-weight: 300;
+        font-weight: 400;
         line-height: 1.6;
         margin: 0px 0px 2rem;
       }
 
       strong {
-        color: #007AFF;
+        color: #fff;
       }
 
       img.emoji {
@@ -189,16 +189,23 @@ export default () => (
     <style jsx global>
     {`
       body {
-        font-family: Graphik,Helvetica Neue,Helvetica,Arial,sans-serif;;
+        font-family: Graphik,Helvetica Neue,Helvetica,Arial,Sans-Serif;
         background: rgb(18, 18, 18);
       }
+
+      @font-face {
+        font-family: "Graphik";
+        font-weight: 400;
+        font-style: light;
+        src: url("/static/fonts/Graphik-400-Regular.otf")
+      } 
 
       @font-face {
         font-family: "Graphik";
         font-weight: 300;
         font-style: light;
         src: url("/static/fonts/Graphik-300-Light.otf")
-      } 
+      }
     `}
     </style>
   </React.Fragment>

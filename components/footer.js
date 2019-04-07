@@ -14,7 +14,7 @@ export default () => (
       <a target="_blank" href="https://twitter.com/cyrsgh" rel="noopener noreferrer">
         <FontAwesomeIcon
           icon={["fab", "twitter"]}
-          color="#fff"
+          color="#858585"
           size="lg"
           className="contact-icon"
         />
@@ -22,7 +22,7 @@ export default () => (
       <a target="_blank" href="https://github.com/lovincyrus" rel="noopener noreferrer">
         <FontAwesomeIcon
           icon={["fab", "github"]}
-          color="#fff"
+          color="#858585"
           size="lg"
           className="contact-icon"
         />
@@ -30,7 +30,7 @@ export default () => (
       <a target="_blank" href="https://www.linkedin.com/in/cyrusgoh" rel="noopener noreferrer">
         <FontAwesomeIcon
           icon={["fab", "linkedin-in"]}
-          color="#fff"
+          color="#858585"
           size="lg"
           className="contact-icon"
         />
@@ -38,7 +38,7 @@ export default () => (
       <a target="_blank" href="https://keybase.io/lovincyrus" rel="noopener noreferrer">
         <FontAwesomeIcon
           icon={["fab", "keybase"]}
-          color="#fff"
+          color="#858585"
           size="lg"
           className="contact-icon"
         />
@@ -46,13 +46,13 @@ export default () => (
       <a target="_blank" href="mailto:hello@lovincyrus.com" rel="noopener noreferrer">
         <FontAwesomeIcon
           icon={faEnvelope}
-          color="#fff"
+          color="#858585"
           size="lg"
           className="contact-icon"
         />
       </a>
     </span>
-    <span className="grey current-location">
+    <span className="current-location">
       Davis, CA
     </span>
 
