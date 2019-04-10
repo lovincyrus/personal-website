@@ -124,8 +124,9 @@ export default () => (
           position: absolute;
         }
 
-        @media (max-width: 639px) {
+        @media (max-width: 696px) {
           .footer-container {
+            position: unset;
           }
         }
       `}
