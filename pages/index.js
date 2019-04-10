@@ -36,7 +36,7 @@ export default () => (
           -webkit-box-align: center;
           align-items: center;
           max-width: 100%;
-          padding-top: 44px;
+          transform: translateY(56px);
           padding-left: 32px;
           padding-right: 32px;
         }
@@ -74,7 +74,7 @@ export default () => (
         @media (max-width: 696px) {
           .intro-wrapper {
             width: 100%;
-            height: 60vh;
+            height: 50vh;
           }
 
           .intro-bio {

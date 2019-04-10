@@ -110,7 +110,7 @@ export default () => (
       {`
         footer {
           display: grid;
-          grid-template-columns: 1fr 1fr;
+          grid-template-columns: auto 1fr;
           grid-template-areas: "logo actions";
           -webkit-align-items: center;
           -webkit-box-align: center;
@@ -126,6 +126,7 @@ export default () => (
 
         @media (max-width: 696px) {
           .footer-container {
+            transform: translateY(55px);
             position: unset;
           }
         }
