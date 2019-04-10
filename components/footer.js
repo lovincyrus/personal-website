@@ -73,9 +73,7 @@ export default () => (
         }
 
         .contact-wrapper {
-          bottom: 24px;
           left: 2vw;
-          position: absolute;
         }
 
         .contact-icon {
@@ -90,24 +88,30 @@ export default () => (
           font-size: 2vh;
           font-weight: 500;
           bottom: 24px;
-          position: absolute;
-          right: 2vw;
-        }
-
-        .this-year {
-          top: 6vh;
-          position: absolute;
-          right: 5vw;
+          display: -webkit-box;
+          display: -webkit-flex;
+          display: -ms-flexbox;
+          display: flex;
+          -webkit-box-pack: end;
+          -webkit-box-pack: end;
+          -webkit-justify-content: flex-end;
+          -ms-flex-pack: end;
+          justify-content: flex-end;
+          -webkit-box-align: center;
+          -webkit-align-items: center;
+          -webkit-box-align: center;
+          -ms-flex-align: center;
+          align-items: center;
+          grid-area: actions / actions / actions / actions;
         }
       `}
       </style>
       <style jsx>
       {`
-        .footer-container {
+        footer {
           display: grid;
           grid-template-columns: 1fr 1fr;
           grid-template-areas: "logo actions";
-          position: fixed;
           -webkit-align-items: center;
           -webkit-box-align: center;
           -ms-flex-align: center;
@@ -116,12 +120,12 @@ export default () => (
           left: 0px;
           right: 0px;
           box-shadow: none;
-          padding: 16px;
+          padding: 26px;
+          position: absolute;
         }
 
         @media (max-width: 639px) {
           .footer-container {
-            display: none;
           }
         }
       `}

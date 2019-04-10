@@ -177,7 +177,7 @@ export default () => (
 
       @media (max-width: 639px) {
         .container {
-          padding-top: 90px;
+          transform: translateY(80px);
         }
 
         .about-bio {

@@ -18,10 +18,8 @@ export default () => (
     <TopBar />
     <div className="body-container">
       <div className="body-wrapper">
-        <div className="home-wrapper">
-          <div className="intro-wrapper">
-            <span className="intro-bio">Developer and cognitive science student at UC Davis.</span>
-          </div>
+        <div className="intro-wrapper">
+          <span className="intro-bio">Developer and cognitive science student at UC Davis.</span>
         </div>
         <Projects />
       </div>
@@ -37,22 +35,19 @@ export default () => (
           justify-content: flex-start;
           -webkit-box-align: center;
           align-items: center;
-          height: 100%;
           max-width: 100%;
+          padding-top: 44px;
+          padding-left: 32px;
+          padding-right: 32px;
         }
 
         .body-wrapper {
           display: flex;
           flex-direction: column;
-          padding-top: 24px;
           position: relative;
           width: 100%;
           max-width: 768px;
           flex: 1 0 auto;
-        }
-
-        .home-wrapper {
-          padding: 0 23%;
         }
 
         .intro-wrapper {
@@ -61,6 +56,7 @@ export default () => (
           display: flex;
           align-items: center;
           text-align: left;
+          padding: 0 2% 0 2%;
         }
 
         .intro-bio {
@@ -73,12 +69,6 @@ export default () => (
         .right-arrow {
           color: #fff;
           font-size: 28px;
-        }
-
-        @media (max-width: 1440px) {
-          .home-wrapper {
-            padding: 0 2% 0 2%;
-          }
         }
 
         @media (max-width: 696px) {
