@@ -143,7 +143,7 @@ export default () => (
 
       @media screen and (min-width: 40em) {
         .container {
-          padding-top: 20px;
+          padding-top: 30px;
         }
 
         .about-wrapper {

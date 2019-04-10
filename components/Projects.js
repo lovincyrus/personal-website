@@ -72,6 +72,12 @@ export default function Projects() {
         line-height: 1.4;
       }
 
+      @media (max-width: 643px) {
+        .projects-wrapper {
+          height: 180px;
+        }
+      }
+
       @media (max-width: 500px) {
         .projects-container {
           display: grid;

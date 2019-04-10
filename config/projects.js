@@ -2,13 +2,12 @@ export default [
   {
     name: 'HackDavis 2019',
     description: 'HackDavis 2019 | February 9 - 10, 2019',
-    tags: 'react',
     url: 'https://5c83541259969ac788d40d9c--hackdavis.netlify.com/',
   },
   {
-    name: 'job-autofiller',
-    description: 'Chrome Extension — autofill job applications 🍻',
-    url: 'https://github.com/lovincyrus/job-autofiller',
+    name: 'Trust Wallet Dapps Browser',
+    description: 'Interacts with decentralized applications on Ethereum blockchain',
+    url: 'https://dapps.trustwalletapp.com',
   },
   {
     name: 'People',
@@ -16,9 +15,9 @@ export default [
     url: 'http://people.davisakpsi.com',
   },
   {
-    name: 'Trust Wallet Dapps Browser',
-    description: 'Interacts with decentralized applications on Ethereum blockchain',
-    url: 'https://dapps.trustwalletapp.com',
+    name: 'job-autofiller',
+    description: 'Chrome Extension — autofill job applications 🍻',
+    url: 'https://github.com/lovincyrus/job-autofiller',
   },
   {
     name: 'wakie wakie',

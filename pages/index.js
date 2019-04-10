@@ -52,7 +52,7 @@ export default () => (
 
         .intro-wrapper {
           width: 100%;
-          height: 33vh;
+          height: 30vh;
           display: flex;
           align-items: center;
           text-align: left;
