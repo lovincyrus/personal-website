@@ -134,6 +134,7 @@ export default () => (
         color: #FFF;
         background-color: #007AFF;
         text-shadow: 0 1px 1px rgba(0,0,0,0.08);
+        transform: translateY(15px);
       }
 
       @media screen and (min-width: 60em) {

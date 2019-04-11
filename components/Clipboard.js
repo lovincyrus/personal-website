@@ -18,7 +18,7 @@ class Clipboard extends React.Component {
     return (
       <React.Fragment>
         <CopyToClipboard onCopy={this.onCopy} text="hello@lovincyrus.com">
-          <p>📩 <strong>hello@lovincyrus.com</strong>{" "}{this.state.copied ? <span>— Yay! Copied my email 🎉</span> : null}</p>
+          <p><strong>hello@lovincyrus.com</strong>{" "}{this.state.copied ? <span>— I gotchu 🙌</span> : null}</p>
         </CopyToClipboard>
 
         <style jsx>

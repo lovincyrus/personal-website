@@ -1,9 +1,8 @@
 import { library, config } from '@fortawesome/fontawesome-svg-core'
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
-import { faEnvelope } from '@fortawesome/free-solid-svg-icons'
-import { faTwitter, faGithub, faLinkedinIn, faKeybase } from '@fortawesome/free-brands-svg-icons'
+import { faTwitter, faGithub, faLinkedinIn, faKeybase, faAngellist } from '@fortawesome/free-brands-svg-icons'
 
-library.add(faTwitter, faGithub, faLinkedinIn, faKeybase, faEnvelope);
+library.add(faTwitter, faGithub, faLinkedinIn, faKeybase, faAngellist);
 
 // https://fontawesome.com/how-to-use/with-the-api/setup/configuration
 config.autoAddCss = false
@@ -35,17 +34,17 @@ export default () => (
           className="contact-icon"
         />
       </a>
-      <a target="_blank" href="https://keybase.io/lovincyrus" rel="noopener noreferrer">
+      <a target="_blank" href="https://angel.co/lovincyrus" rel="noopener noreferrer">
         <FontAwesomeIcon
-          icon={["fab", "keybase"]}
+          icon={["fab", "angellist"]}
           color="#858585"
           size="lg"
           className="contact-icon"
         />
       </a>
-      <a target="_blank" href="mailto:hello@lovincyrus.com" rel="noopener noreferrer">
+      <a target="_blank" href="https://keybase.io/lovincyrus" rel="noopener noreferrer">
         <FontAwesomeIcon
-          icon={faEnvelope}
+          icon={["fab", "keybase"]}
           color="#858585"
           size="lg"
           className="contact-icon"
