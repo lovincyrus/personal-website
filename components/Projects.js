@@ -43,7 +43,7 @@ export default function Projects() {
         box-shadow: rgba(0, 0, 0, 0.08) 0px 4px 8px;
         background: #252525;
         border-radius: 8px;
-        height: 150px;
+        height: 166px;
       }
 
       .projects-wrapper:hover {
@@ -72,9 +72,9 @@ export default function Projects() {
         line-height: 1.4;
       }
 
-      @media (max-width: 643px) {
+      @media (max-width: 650px) {
         .projects-wrapper {
-          height: 180px;
+          height: 200px;
         }
       }
 

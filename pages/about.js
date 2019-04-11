@@ -143,7 +143,7 @@ export default () => (
 
       @media screen and (min-width: 40em) {
         .container {
-          padding-top: 30px;
+          transform: translateY(30px);
         }
 
         .about-wrapper {
