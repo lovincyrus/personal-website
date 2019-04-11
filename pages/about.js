@@ -3,6 +3,7 @@ import Link from 'next/link'
 
 import TopBar from '../components/TopBar'
 import Footer from '../components/Footer'
+import Clipboard from '../components/Clipboard'
 
 export default () => (
   <React.Fragment>
@@ -33,7 +34,7 @@ export default () => (
                 I love to learn by doing things, which is why I am always in progress. I also learn in public at <a href="https://docs.lovincyrus.com" target="_blank"><strong>GitBook</strong></a>. Sometimes I explain why I do what I do in this <a href="https://blog.lovincyrus.com/" target="_blank"><strong>blog</strong></a>. Occasionally, I post photographs on <a href="https://vsco.co/lovincyrus" target="_blank"><strong>VSCO</strong></a>. When I'm not building apps, I enjoy having deep conversations with people and shooting film photography using Olympus XA2 and Nikon FM2n.
               </p>
               <p>Say hi for 💬💡☕️ </p>
-              <p><a href="mailto:hello@lovincyrus.com">📩 <strong>hello@lovincyrus.com</strong></a></p>
+              <Clipboard />
               <button className="resume-btn"><Link href="/static/resume/cyrusgoh-resume.pdf"><a>résumé</a></Link></button>
             </div>
           </div>
