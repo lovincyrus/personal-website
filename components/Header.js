@@ -4,9 +4,9 @@ export default () => (
   <nav className="top-container">
     <Link prefetch href="/"><a>Cyrus Goh</a></Link>
     <span className="right-wrapper">
-      <a href="/about">
+      <Link href="/about">
         <button className="about-btn">About</button>
-      </a>
+      </Link>
     </span>
     <style jsx>
     {`

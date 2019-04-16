@@ -16,7 +16,8 @@
     "prettier": "^1.16.4",
     "react": "^16.8.5",
     "react-copy-to-clipboard": "^5.0.1",
-    "react-dom": "^16.8.5"
+    "react-dom": "^16.8.5",
+    "styled-jsx": "^3.2.1"
   },
   "husky": {
     "hooks": {

@@ -1,7 +1,7 @@
 import Head from 'next/head'
 import Link from 'next/link'
 
-import TopBar from '../components/TopBar'
+import Header from '../components/Header'
 import Footer from '../components/Footer'
 import Clipboard from '../components/Clipboard'
 
@@ -17,7 +17,7 @@ export default () => (
     </Head>
 
     <div className="main">
-      <TopBar />
+      <Header />
       <section className="container">
         <div className="about-wrapper">
           <div className="about-content">
@@ -134,7 +134,7 @@ export default () => (
         color: #FFF;
         background-color: #007AFF;
         text-shadow: 0 1px 1px rgba(0,0,0,0.08);
-        transform: translateY(15px);
+        transform: translateY(17px);
       }
 
       @media screen and (min-width: 60em) {

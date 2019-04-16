@@ -16,20 +16,10 @@ export default function Projects() {
           </div>
         </a>
       ))}
-      {/* <p></p>
-      <p className="see-more"><a href="/projects">give me more projects</a></p> */}
     </div>
-      
+
     <style jsx>
-    {`
-      .see-more {
-        font-size: .6428571429rem;
-        letter-spacing: .4em;
-        text-transform: uppercase;
-        text-align: right;
-        color: white;
-      }
-        
+    {`        
       .projects-container {
         display: grid;
         grid-template-columns: 1fr 1fr;

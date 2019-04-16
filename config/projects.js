@@ -16,7 +16,7 @@ export default [
   },
   {
     name: 'job-autofiller',
-    description: 'Built a Chrome Extension that autofills job applications with Vanilla JS.',
+    description: 'Built a Chrome Extension that autofills job applications using Vanilla JS.',
     url: 'https://github.com/lovincyrus/job-autofiller',
   },
   {
