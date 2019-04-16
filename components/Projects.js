@@ -1,5 +1,3 @@
-import Link from 'next/link'
-
 import data from '../config/projects';
 
 export default function Projects() {
@@ -20,28 +18,8 @@ export default function Projects() {
       ))}
     </div>
 
-    <Link href="/projects">
-      <button>more</button>
-    </Link>
-
     <style jsx>
-    {`
-      button {
-        margin-top: 18px;
-        background-color: transparent;
-        padding: 10px;
-        border-radius: 8px;
-        color: white;
-      }
-
-      .see-more {
-        font-size: .6428571429rem;
-        letter-spacing: .4em;
-        text-transform: uppercase;
-        text-align: center;
-        color: white;
-      }
-        
+    {`        
       .projects-container {
         display: grid;
         grid-template-columns: 1fr 1fr;

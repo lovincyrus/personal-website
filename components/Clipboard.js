@@ -33,7 +33,7 @@ class Clipboard extends React.Component {
 
           @media (max-width: 500px) {
             span {
-              font-size: 8px;
+              font-size: 13px;
             }
           }
         `}

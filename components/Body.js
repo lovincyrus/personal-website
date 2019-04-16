@@ -21,7 +21,7 @@ export default () => (
           -webkit-box-align: center;
           align-items: center;
           max-width: 100%;
-          transform: translateY(50px);
+          transform: translateY(9vh);
           padding-left: 32px;
           padding-right: 32px;
         }
