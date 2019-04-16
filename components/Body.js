@@ -1,11 +1,13 @@
-import Projects from '../components/Projects'
+import Projects from "../components/Projects";
 
 export default () => (
   <React.Fragment>
     <div className="body-container">
       <div className="body-wrapper">
         <div className="intro-wrapper">
-          <span className="intro-bio">Developer and cognitive science student at UC Davis.</span>
+          <span className="intro-bio">
+            Developer and cognitive science student at UC Davis.
+          </span>
         </div>
         <Projects />
       </div>
@@ -62,6 +64,6 @@ export default () => (
           }
         }
       `}
-      </style>
+    </style>
   </React.Fragment>
-)
+);

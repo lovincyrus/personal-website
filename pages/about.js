@@ -1,9 +1,9 @@
-import Head from 'next/head'
-import Link from 'next/link'
+import Head from "next/head";
+import Link from "next/link";
 
-import Header from '../components/Header'
-import Footer from '../components/Footer'
-import Clipboard from '../components/Clipboard'
+import Header from "../components/Header";
+import Footer from "../components/Footer";
+import Clipboard from "../components/Clipboard";
 
 export default () => (
   <React.Fragment>
@@ -23,19 +23,50 @@ export default () => (
           <div className="about-content">
             <div className="about-card">
               <div className="img-wrapper">
-                <img sizes="(max-width: 1800px) 100vw, 1800px" src="/static/img/nutnut.jpg" alt="hero" />
+                <img
+                  sizes="(max-width: 1800px) 100vw, 1800px"
+                  src="/static/img/nutnut.jpg"
+                  alt="hero"
+                />
               </div>
             </div>
             <div className="about-bio">
               <h3>Hi, I'm Cyrus</h3>
-              <p>I am a developer and a cognitive science student at UC Davis. Currently exploring frontend full-time opportunities. </p>
-              <p>Previously: <span className="prev-companies">8x Protocol, HackDavis, Fave, Trust Wallet (acq. Binance).</span></p>
               <p>
-                I love to learn by doing things, which is why I am always in progress. I also learn in public at <a href="https://docs.lovincyrus.com" target="_blank"><strong>GitBook</strong></a>. Sometimes I explain why I do what I do in this <a href="https://blog.lovincyrus.com/" target="_blank"><strong>blog</strong></a>. Occasionally, I post photographs on <a href="https://vsco.co/lovincyrus" target="_blank"><strong>VSCO</strong></a>. When I'm not building apps, I enjoy having deep conversations with people and shooting film photography using Olympus XA2 and Nikon FM2n.
+                I am a developer and a cognitive science student at UC Davis.
+                Currently exploring frontend full-time opportunities.{" "}
+              </p>
+              <p>
+                Previously:{" "}
+                <span className="prev-companies">
+                  8x Protocol, HackDavis, Fave, Trust Wallet (acq. Binance).
+                </span>
+              </p>
+              <p>
+                I love to learn by doing things, which is why I am always in
+                progress. I also learn in public at{" "}
+                <a href="https://docs.lovincyrus.com" target="_blank">
+                  <strong>GitBook</strong>
+                </a>
+                . Sometimes I explain why I do what I do in this{" "}
+                <a href="https://blog.lovincyrus.com/" target="_blank">
+                  <strong>blog</strong>
+                </a>
+                . Occasionally, I post photographs on{" "}
+                <a href="https://vsco.co/lovincyrus" target="_blank">
+                  <strong>VSCO</strong>
+                </a>
+                . When I'm not building apps, I enjoy having deep conversations
+                with people and shooting film photography using Olympus XA2 and
+                Nikon FM2n.
               </p>
               <p>Say hi for 💬💡☕️ </p>
               <Clipboard />
-              <button className="resume-btn"><Link href="/static/resume/cyrusgoh-resume.pdf"><a>résumé</a></Link></button>
+              <button className="resume-btn">
+                <Link href="/static/resume/cyrusgoh-resume.pdf">
+                  <a>résumé</a>
+                </Link>
+              </button>
             </div>
           </div>
         </div>
@@ -43,7 +74,7 @@ export default () => (
       <Footer />
     </div>
     <style jsx>
-    {`
+      {`
       .container {
         position: relative;
         max-width: 1200px;
@@ -189,26 +220,26 @@ export default () => (
     </style>
 
     <style jsx global>
-    {`
-      body {
-        font-family: Graphik,Helvetica Neue,Helvetica,Arial,Sans-Serif;
-        background: rgb(18, 18, 18);
-      }
+      {`
+        body {
+          font-family: Graphik, Helvetica Neue, Helvetica, Arial, Sans-Serif;
+          background: rgb(18, 18, 18);
+        }
 
-      @font-face {
-        font-family: "Graphik";
-        font-weight: 400;
-        font-style: light;
-        src: url("/static/fonts/Graphik-400-Regular.otf")
-      } 
+        @font-face {
+          font-family: "Graphik";
+          font-weight: 400;
+          font-style: light;
+          src: url("/static/fonts/Graphik-400-Regular.otf");
+        }
 
-      @font-face {
-        font-family: "Graphik";
-        font-weight: 300;
-        font-style: light;
-        src: url("/static/fonts/Graphik-300-Light.otf")
-      }
-    `}
+        @font-face {
+          font-family: "Graphik";
+          font-weight: 300;
+          font-style: light;
+          src: url("/static/fonts/Graphik-300-Light.otf");
+        }
+      `}
     </style>
   </React.Fragment>
-)
+);

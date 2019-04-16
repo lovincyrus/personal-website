@@ -1,5 +1,5 @@
-import React from 'react'
-import { CopyToClipboard } from 'react-copy-to-clipboard'
+import React from "react";
+import { CopyToClipboard } from "react-copy-to-clipboard";
 
 class Clipboard extends React.Component {
   constructor(props) {
@@ -18,25 +18,28 @@ class Clipboard extends React.Component {
     return (
       <React.Fragment>
         <CopyToClipboard onCopy={this.onCopy} text="hello@lovincyrus.com">
-          <p><strong>hello@lovincyrus.com</strong>{" "}{this.state.copied ? <span>— I gotchu 🙌</span> : null}</p>
+          <p>
+            <strong>hello@lovincyrus.com</strong>{" "}
+            {this.state.copied ? <span>— I gotchu 🙌</span> : null}
+          </p>
         </CopyToClipboard>
 
         <style jsx>
-        {`
-          strong {
-            color: #fff;
-          }
-
-          span {
-            color: #fff;
-          }
-
-          @media (max-width: 500px) {
-            span {
-              font-size: 13px;
+          {`
+            strong {
+              color: #fff;
             }
-          }
-        `}
+
+            span {
+              color: #fff;
+            }
+
+            @media (max-width: 500px) {
+              span {
+                font-size: 13px;
+              }
+            }
+          `}
         </style>
       </React.Fragment>
     );

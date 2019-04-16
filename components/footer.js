@@ -1,16 +1,26 @@
-import { library, config } from '@fortawesome/fontawesome-svg-core'
-import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
-import { faTwitter, faGithub, faLinkedinIn, faKeybase, faAngellist } from '@fortawesome/free-brands-svg-icons'
+import { library, config } from "@fortawesome/fontawesome-svg-core";
+import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
+import {
+  faTwitter,
+  faGithub,
+  faLinkedinIn,
+  faKeybase,
+  faAngellist
+} from "@fortawesome/free-brands-svg-icons";
 
 library.add(faTwitter, faGithub, faLinkedinIn, faKeybase, faAngellist);
 
 // https://fontawesome.com/how-to-use/with-the-api/setup/configuration
-config.autoAddCss = false
+config.autoAddCss = false;
 
 export default () => (
   <footer className="footer-container">
     <span className="contact-wrapper">
-      <a target="_blank" href="https://twitter.com/cyrsgh" rel="noopener noreferrer">
+      <a
+        target="_blank"
+        href="https://twitter.com/cyrsgh"
+        rel="noopener noreferrer"
+      >
         <FontAwesomeIcon
           icon={["fab", "twitter"]}
           color="#858585"
@@ -18,7 +28,11 @@ export default () => (
           className="contact-icon"
         />
       </a>
-      <a target="_blank" href="https://github.com/lovincyrus" rel="noopener noreferrer">
+      <a
+        target="_blank"
+        href="https://github.com/lovincyrus"
+        rel="noopener noreferrer"
+      >
         <FontAwesomeIcon
           icon={["fab", "github"]}
           color="#858585"
@@ -26,7 +40,11 @@ export default () => (
           className="contact-icon"
         />
       </a>
-      <a target="_blank" href="https://www.linkedin.com/in/cyrusgoh" rel="noopener noreferrer">
+      <a
+        target="_blank"
+        href="https://www.linkedin.com/in/cyrusgoh"
+        rel="noopener noreferrer"
+      >
         <FontAwesomeIcon
           icon={["fab", "linkedin-in"]}
           color="#858585"
@@ -34,7 +52,11 @@ export default () => (
           className="contact-icon"
         />
       </a>
-      <a target="_blank" href="https://angel.co/lovincyrus" rel="noopener noreferrer">
+      <a
+        target="_blank"
+        href="https://angel.co/lovincyrus"
+        rel="noopener noreferrer"
+      >
         <FontAwesomeIcon
           icon={["fab", "angellist"]}
           color="#858585"
@@ -42,7 +64,11 @@ export default () => (
           className="contact-icon"
         />
       </a>
-      <a target="_blank" href="https://keybase.io/lovincyrus" rel="noopener noreferrer">
+      <a
+        target="_blank"
+        href="https://keybase.io/lovincyrus"
+        rel="noopener noreferrer"
+      >
         <FontAwesomeIcon
           icon={["fab", "keybase"]}
           color="#858585"
@@ -51,9 +77,7 @@ export default () => (
         />
       </a>
     </span>
-    <span className="current-location">
-      Davis, CA
-    </span>
+    <span className="current-location">Davis, CA</span>
 
     <style jsx global>
       {`
@@ -61,14 +85,14 @@ export default () => (
           font-family: "Graphik";
           font-weight: 300;
           font-style: light;
-          src: url("/static/fonts/Graphik-300-Light.otf")
+          src: url("/static/fonts/Graphik-300-Light.otf");
         }
 
         @font-face {
           font-family: "Graphik";
           font-weight: 500;
           font-style: medium;
-          src: url("/static/fonts/Graphik-500-Medium.otf")
+          src: url("/static/fonts/Graphik-500-Medium.otf");
         }
 
         .contact-wrapper {
@@ -104,8 +128,8 @@ export default () => (
           grid-area: actions / actions / actions / actions;
         }
       `}
-      </style>
-      <style jsx>
+    </style>
+    <style jsx>
       {`
         footer {
           display: grid;
@@ -131,6 +155,6 @@ export default () => (
           }
         }
       `}
-      </style>
+    </style>
   </footer>
-)
+);
