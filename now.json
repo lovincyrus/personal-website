@@ -1,20 +1,9 @@
 {
   "version": 2,
-  "alias": ["lovincyrus.com"],
+  "name": "personal-website",
+  "alias": ["www.lovincyrus.com"],
   "github": {
     "silent": true
   },
-  "files": [
-    "components",
-    "config",
-    "lib",
-    "pages",
-    "static",
-    "types",
-    ".babelrc.js",
-    "server.js"
-  ],
-  "builds": [
-    { "src": "next.config.js", "use": "@now/next" }
-  ]
+  "builds": [{ "src": "package.json", "use": "@now/static-build" }]
 }
