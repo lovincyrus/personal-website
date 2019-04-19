@@ -1,5 +1,4 @@
 import Head from "next/head";
-import Link from "next/link";
 
 import Header from "../components/Header";
 import Footer from "../components/Footer";
@@ -62,11 +61,9 @@ export default () => (
               </p>
               <p>Say hi for 💬💡☕️ </p>
               <Clipboard />
-              <Link href="/static/resume/cyrusgoh-resume.pdf">
-                <button className="resume-btn">
-                  <a>résumé</a>
-                </button>
-              </Link>
+              <button className="resume-btn">
+                <a href="/static/resume/cyrusgoh-resume.pdf" target="_blank">résumé</a>
+              </button>
             </div>
           </div>
         </div>

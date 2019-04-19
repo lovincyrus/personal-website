@@ -149,7 +149,7 @@ export default () => (
 
         @media (max-width: 696px) {
           .footer-container {
-            padding-top: 80px;
+            margin-top: 80px;
             transform: translateY(55px);
             position: unset;
           }
