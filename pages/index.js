@@ -15,7 +15,7 @@ export default () => (
       />
       <meta
         name="description"
-        content="Cyrus Goh @cyrsgh · Software Engineer · Thinker"
+        content="Cyrus Goh @cyrsgh · Frontend Engineer · Thinker"
       />
       <meta name="author" content="Cyrus Goh" />
       <meta property="og:site_name" content="Cyrus Goh" />
@@ -49,7 +49,8 @@ export default () => (
     <style jsx global>
       {`
         body {
-          font-family: Graphik, Helvetica Neue, Helvetica, Arial, sans-serif;
+          font-family: Graphik, Helvetica Neue, Helvetica, Arial, -apple-system,
+            system-ui, sans-serif;
           background: rgb(18, 18, 18);
         }
 

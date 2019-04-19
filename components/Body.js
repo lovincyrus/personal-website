@@ -15,6 +15,24 @@ export default () => (
 
     <style jsx>
       {`
+        @keyframes fadein {
+          from {
+            opacity: 0;
+          }
+
+          to {
+            opacity: 0.85;
+          }
+        }
+
+        .transition {
+          opacity-transition: opacity 2000ms ease;
+          transform-end: none;
+          transform-start: translateY(30px);
+          transition: opacity 1000ms ease,
+            transform 1200ms cubic-bezier(0.4, 0, 0.3, 1);
+        }
+
         .body-container {
           display: flex;
           flex-direction: column;

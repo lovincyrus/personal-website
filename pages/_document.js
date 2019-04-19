@@ -1,10 +1,10 @@
-import React from 'react'
-import Document, { Head, Main, NextScript } from 'next/document'
+import React from "react";
+import Document, { Head, Main, NextScript } from "next/document";
 
-import { GA_TRACKING_ID } from '../lib/gtag'
+import { GA_TRACKING_ID } from "../lib/gtag";
 
 export default class extends Document {
-  render () {
+  render() {
     return (
       <html>
         <Head>
@@ -30,6 +30,6 @@ export default class extends Document {
           <NextScript />
         </body>
       </html>
-    )
+    );
   }
 }

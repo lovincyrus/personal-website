@@ -62,11 +62,11 @@ export default () => (
               </p>
               <p>Say hi for 💬💡☕️ </p>
               <Clipboard />
-              <button className="resume-btn">
-                <Link href="/static/resume/cyrusgoh-resume.pdf">
+              <Link href="/static/resume/cyrusgoh-resume.pdf">
+                <button className="resume-btn">
                   <a>résumé</a>
-                </Link>
-              </button>
+                </button>
+              </Link>
             </div>
           </div>
         </div>
