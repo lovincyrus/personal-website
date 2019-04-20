@@ -19,7 +19,7 @@ export default () => (
       />
       <meta name="author" content="Cyrus Goh" />
       <meta property="og:site_name" content="Cyrus Goh" />
-      <meta property="og:image" content="URL" />
+      <meta property="og:image" content="https://www.lovincyrus.com/static/img/banner.png" />
       <meta property="og:type" content="website" />
       <meta property="og:title" content="Cyrus Goh" />
       <meta
@@ -33,7 +33,7 @@ export default () => (
       />
 
       <meta name="twitter:card" content="summary" />
-      <meta name="twitter:image" content="URL" />
+      <meta name="twitter:image" content="https://www.lovincyrus.com/static/img/banner.png" />
       <meta name="twitter:site" content="@cyrsgh" />
       <meta name="twitter:title" content="Cyrus Goh" />
       <meta
