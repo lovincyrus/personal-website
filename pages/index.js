@@ -40,6 +40,8 @@ export default () => (
         name="twitter:description"
         content="Cyrus Goh @cyrsgh · Frontend Engineer · Thinker"
       />
+      <link href="https://www.lovincyrus.com/static/img/32fav.png" rel="shortcut icon" type="image/x-icon"/>
+      <link href="https://www.lovincyrus.com/static/img/256fav.png" rel="apple-touch-icon"/>
     </Head>
 
     <Header />
