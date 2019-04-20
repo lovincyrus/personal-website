@@ -2,9 +2,11 @@ import Link from "next/link";
 
 export default () => (
   <nav className="top-container">
-    <Link prefetch href="/">
-      <a>Cyrus Goh</a>
-    </Link>
+    <span>
+      <Link prefetch href="/">
+        <a>Cyrus Goh</a>
+      </Link>
+    </span>
     <span className="right-wrapper">
       <Link href="/about">
         <button className="about-btn">About</button>
