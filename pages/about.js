@@ -3,6 +3,7 @@ import Head from "next/head";
 import Header from "../components/Header";
 import Footer from "../components/Footer";
 import Clipboard from "../components/Clipboard";
+import Meta from "../components/Meta";
 
 export default () => (
   <React.Fragment>
@@ -13,6 +14,8 @@ export default () => (
         content="initial-scale=1.0, width=device-width"
         key="viewport"
       />
+      <meta property="og:url" content="https://www.lovincyrus.com/about" />
+      <Meta />
     </Head>
 
     <div className="main">
