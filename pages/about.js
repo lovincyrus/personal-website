@@ -26,6 +26,7 @@ export default () => (
                   sizes="(max-width: 1800px) 100vw, 1800px"
                   src="/static/img/nutnut.jpg"
                   alt="hero"
+                  rel="prefetch"
                 />
               </div>
             </div>
@@ -47,6 +48,7 @@ export default () => (
                 <a
                   href="https://docs.lovincyrus.com"
                   target="_blank"
+                  rel="noopener noreferrer"
                   aria-label="GitBook"
                 >
                   <strong>GitBook</strong>
@@ -55,6 +57,7 @@ export default () => (
                 <a
                   href="https://blog.lovincyrus.com/"
                   target="_blank"
+                  rel="noopener noreferrer"
                   aria-label="Blog"
                 >
                   <strong>blog</strong>
@@ -63,6 +66,7 @@ export default () => (
                 <a
                   href="https://vsco.co/lovincyrus"
                   target="_blank"
+                  rel="noopener noreferrer"
                   aria-label="VSCO"
                 >
                   <strong>VSCO</strong>
@@ -76,6 +80,7 @@ export default () => (
               <a
                 href="/static/resume/cyrusgoh-resume.pdf"
                 target="_blank"
+                rel="noopener noreferrer"
                 aria-label="Résumé"
               >
                 <button className="resume-btn">résumé</button>
