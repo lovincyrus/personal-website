@@ -44,15 +44,27 @@ export default () => (
               <p>
                 I love to learn by doing things, which is why I am always in
                 progress. I also learn in public at{" "}
-                <a href="https://docs.lovincyrus.com" target="_blank">
+                <a
+                  href="https://docs.lovincyrus.com"
+                  target="_blank"
+                  aria-label="GitBook"
+                >
                   <strong>GitBook</strong>
                 </a>
                 . Sometimes I explain why I do what I do in this{" "}
-                <a href="https://blog.lovincyrus.com/" target="_blank">
+                <a
+                  href="https://blog.lovincyrus.com/"
+                  target="_blank"
+                  aria-label="Blog"
+                >
                   <strong>blog</strong>
                 </a>
                 . Occasionally, I post photographs on{" "}
-                <a href="https://vsco.co/lovincyrus" target="_blank">
+                <a
+                  href="https://vsco.co/lovincyrus"
+                  target="_blank"
+                  aria-label="VSCO"
+                >
                   <strong>VSCO</strong>
                 </a>
                 . When I'm not building apps, I enjoy having deep conversations
@@ -61,7 +73,11 @@ export default () => (
               </p>
               <p>Say hi for 💬💡☕️ </p>
               <Clipboard />
-              <a href="/static/resume/cyrusgoh-resume.pdf" target="_blank">
+              <a
+                href="/static/resume/cyrusgoh-resume.pdf"
+                target="_blank"
+                aria-label="Résumé"
+              >
                 <button className="resume-btn">résumé</button>
               </a>
             </div>
@@ -208,6 +224,7 @@ export default () => (
           font-family: "Graphik";
           font-weight: 400;
           font-style: light;
+          font-display: auto;
           src: url("/static/fonts/Graphik-400-Regular.otf");
         }
 
@@ -215,6 +232,7 @@ export default () => (
           font-family: "Graphik";
           font-weight: 300;
           font-style: light;
+          font-display: auto;
           src: url("/static/fonts/Graphik-300-Light.otf");
         }
       `}

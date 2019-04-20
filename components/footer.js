@@ -20,6 +20,7 @@ export default () => (
         target="_blank"
         href="https://twitter.com/cyrsgh"
         rel="noopener noreferrer"
+        aria-label="Twitter"
       >
         <FontAwesomeIcon
           icon={["fab", "twitter"]}
@@ -32,6 +33,7 @@ export default () => (
         target="_blank"
         href="https://github.com/lovincyrus"
         rel="noopener noreferrer"
+        aria-label="GitHub"
       >
         <FontAwesomeIcon
           icon={["fab", "github"]}
@@ -44,6 +46,7 @@ export default () => (
         target="_blank"
         href="https://www.linkedin.com/in/cyrusgoh"
         rel="noopener noreferrer"
+        aria-label="LinkedIn"
       >
         <FontAwesomeIcon
           icon={["fab", "linkedin-in"]}
@@ -56,6 +59,7 @@ export default () => (
         target="_blank"
         href="https://angel.co/lovincyrus"
         rel="noopener noreferrer"
+        aria-label="AngelList"
       >
         <FontAwesomeIcon
           icon={["fab", "angellist"]}
@@ -68,6 +72,7 @@ export default () => (
         target="_blank"
         href="https://keybase.io/lovincyrus"
         rel="noopener noreferrer"
+        aria-label="Keybase"
       >
         <FontAwesomeIcon
           icon={["fab", "keybase"]}
@@ -85,6 +90,7 @@ export default () => (
           font-family: "Graphik";
           font-weight: 300;
           font-style: light;
+          font-display: auto;
           src: url("/static/fonts/Graphik-300-Light.otf");
         }
 
@@ -92,6 +98,7 @@ export default () => (
           font-family: "Graphik";
           font-weight: 500;
           font-style: medium;
+          font-display: auto;
           src: url("/static/fonts/Graphik-500-Medium.otf");
         }
 

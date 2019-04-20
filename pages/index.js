@@ -63,6 +63,7 @@ export default () => (
           font-family: "Graphik";
           font-weight: 100;
           font-style: normal;
+          font-display: auto;
           src: url("/static/fonts/Graphik-100-Thin.otf");
         }
 
@@ -70,6 +71,7 @@ export default () => (
           font-family: "Graphik";
           font-weight: 300;
           font-style: light;
+          font-display: auto;
           src: url("/static/fonts/Graphik-300-Light.otf");
         }
 
@@ -77,6 +79,7 @@ export default () => (
           font-family: "Graphik";
           font-weight: 400;
           font-style: normal;
+          font-display: auto;
           src: url("/static/fonts/Graphik-400-Regular.otf");
         }
 
@@ -84,6 +87,7 @@ export default () => (
           font-family: "Graphik";
           font-weight: 500;
           font-style: medium;
+          font-display: auto;
           src: url("/static/fonts/Graphik-500-Medium.otf");
         }
 
@@ -91,6 +95,7 @@ export default () => (
           font-family: "Graphik";
           font-weight: 700;
           font-style: bold;
+          font-display: auto;
           src: url("/static/fonts/Graphik-700-Bold.otf");
         }
 
@@ -98,6 +103,7 @@ export default () => (
           font-family: "Graphik";
           font-weight: 900;
           font-style: bold;
+          font-display: auto;
           src: url("/static/fonts/Graphik-900-Super.otf");
         }
       `}
