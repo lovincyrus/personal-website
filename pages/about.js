@@ -61,9 +61,9 @@ export default () => (
               </p>
               <p>Say hi for 💬💡☕️ </p>
               <Clipboard />
-              <button className="resume-btn">
-                <a href="/static/resume/cyrusgoh-resume.pdf" target="_blank">résumé</a>
-              </button>
+              <a href="/static/resume/cyrusgoh-resume.pdf" target="_blank">
+                <button className="resume-btn">résumé</button>
+              </a>
             </div>
           </div>
         </div>
@@ -127,25 +127,6 @@ export default () => (
       }
 
       .resume-btn {
-        -webkit-appearance: none;
-        display: -webkit-box;
-        display: -webkit-flex;
-        display: -ms-flexbox;
-        display: flex;
-        -webkit-flex: none;
-        -ms-flex: none;
-        flex: none;
-        -webkit-align-self: center;
-        -ms-flex-item-align: center;
-        align-self: center;
-        -webkit-align-items: center;
-        -webkit-box-align: center;
-        -ms-flex-align: center;
-        align-items: center;
-        -webkit-box-pack: center;
-        -webkit-justify-content: center;
-        -ms-flex-pack: center;
-        justify-content: center;
         border-radius: 4px;
         font-size: 16px;
         font-weight: 500;
