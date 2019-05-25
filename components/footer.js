@@ -18,7 +18,7 @@ export default () => (
     <span className="contact-wrapper">
       <a
         target="_blank"
-        href="https://twitter.com/cyrsgh"
+        href="https://mobile.twitter.com/cyrsgh"
         rel="noopener noreferrer"
         aria-label="Twitter"
       >
