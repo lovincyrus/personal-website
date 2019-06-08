@@ -6,7 +6,7 @@ export default () => (
       <div className="body-wrapper">
         <div className="intro-wrapper">
           <span className="intro-bio">
-            Developer and cognitive science student at UC Davis.
+          Incoming Front-End Engineer at Tendermint
           </span>
         </div>
         <Projects />
@@ -61,6 +61,8 @@ export default () => (
           display: flex;
           align-items: center;
           text-align: left;
+          justify-content: center;
+          align-items: center;
           padding: 0 2% 0 2%;
         }
 

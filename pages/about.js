@@ -37,7 +37,7 @@ export default () => (
               <h3>Hi, I'm Cyrus</h3>
               <p>
                 I am a developer and a cognitive science student at UC Davis.
-                Currently exploring frontend full-time opportunities.{" "}
+                Incoming Front-End Engineer at Tendermint 🌌{" "}
               </p>
               <p>
                 Previously:{" "}

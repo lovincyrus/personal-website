@@ -28,7 +28,7 @@ export default function Projects() {
           .projects-container {
             display: grid;
             grid-template-columns: 1fr 1fr;
-            width: 100%;
+            width: 104%;
             gap: 30px 30px;
             flex: 1 0 auto;
           }
