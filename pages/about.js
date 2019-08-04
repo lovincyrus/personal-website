@@ -36,8 +36,8 @@ export default () => (
             <div className="about-bio">
               <h3>Hi, I'm Cyrus</h3>
               <p>
-                I am a developer and a cognitive science student at UC Davis.
-                Incoming Front-End Engineer at Tendermint 🌌{" "}
+                Recent cognitive science graduate at UC Davis.
+                Incoming Front-End Engineer at <a href="http://tendermint.com" target="_blank" rel="noopener noreferrer" aria-label="Tendermint">Tendermint</a> 🌌{" "}
               </p>
               <p>
                 Previously:{" "}

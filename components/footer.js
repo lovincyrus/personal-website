@@ -82,7 +82,7 @@ export default () => (
         />
       </a>
     </span>
-    <span className="current-location">Davis, CA</span>
+    <span className="current-location">San Francisco, CA</span>
 
     <style jsx global>
       {`
