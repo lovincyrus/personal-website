@@ -6,7 +6,7 @@ export default () => (
       <div className="body-wrapper">
         <div className="intro-wrapper">
           <span className="intro-bio">
-          Incoming Front-End Engineer at Tendermint
+          Front-End Engineer at Tendermint
           </span>
         </div>
         <Projects />
@@ -68,7 +68,7 @@ export default () => (
 
         .intro-bio {
           display: block;
-          text-align: left;
+          text-align: center;
           font: 1.8rem Graphik;
           color: #fff;
         }
